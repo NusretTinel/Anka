@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-      <img width="600px" height="300px" src="../../assets/images/imgAnka/logo.png">
+      <img width="250px" height="125px" src="../../assets/images/imgAnka/logo.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -9,17 +9,27 @@
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
       <div class="navbar-nav">
-        <a class="nav-item nav-link " href="#">Ana Sayfa <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Hizmetlerimiz</a>
-        <a class="nav-item nav-link" href="#">Hakkımızda</a>
-        <a class="nav-item nav-link" href="#">İletişim</a>
+        <a  class="nav-item nav-link " href="/anasayfa">Ana Sayfa <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="/hizmetlerimiz">Hizmetlerimiz</a>
+        <a class="nav-item nav-link" href="/hakkimizda">Hakkımızda</a>
+        <a class="nav-item nav-link" href="/contact">İletişim</a>
       </div>
       <div class="footer-logo ">
         <ul style="display: flex">
           <li>
-            <a href="mailto:info@ankatedarik.com" taget="blank"><i
+            <a href="mailto:info@ankatedarik.com" target="blank"><i
                 class="fas fa-envelope"></i></a>
           </li>
+          <li>
+            <a href="tel:+90 542 257 28 66">
+              <i class="fas fa-phone"></i>
+
+            </a>
+          </li>
+
+
+
+
           <!--
           <li>
             <a href="https://www.facebook.com/ankaraeczaci" target="_blank"><i
@@ -67,14 +77,21 @@ name:'navbarPage',
 };
 </script>
 <style>
-
-.nav-item {
-  margin-right: 15px;
+.navbar{
+  background-color:blue !important;
+}
+.navbar-nav{
+  background-color:blue !important;
+}
+.navbar-nav .nav-item {
+  margin-right: 50px;
   font-size: 20px;
+  margin-top: 10px;
+color:darkblue !important;
 }
 
-.nav-item:first-child {
-  margin-left: 75px; /* İlk linkin sağ tarafına boşluk ekleme */
+.navbar-nav .nav-item:first-child {
+  margin-left: 300px; /* İlk linkin sağ tarafına boşluk ekleme */
 }
 .logo_title {
   color: #c11627;
@@ -323,6 +340,5 @@ footer-logo{
   top: 0px;
   z-index: 2;
 }
-
 
 </style>
