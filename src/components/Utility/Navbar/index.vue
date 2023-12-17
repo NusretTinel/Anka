@@ -1,24 +1,26 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-      <img src="../../../assets/images/imgAnka/logo.png">
+      <img width="600px" height="300px" src="../../../assets/images/imgAnka/logo.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Features</a>
-        <a class="nav-item nav-link" href="#">Pricing</a>
-        <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        <a class="nav-item nav-link " href="#">Ana Sayfa <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Hizmetlerimiz</a>
+        <a class="nav-item nav-link" href="#">Hakkımızda</a>
+        <a class="nav-item nav-link" href="#">İletişim</a>
       </div>
       <div class="footer-logo ">
         <ul style="display: flex">
           <li>
-            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fankaraeczaci" target="_blank"><i
-                class="fab fa-twitter"></i></a>
+            <a href="mailto:info@ankatedarik.com" taget="blank"><i
+            class="fas fa-envelope"></i></a>
           </li>
+          <!--
           <li>
             <a href="https://www.facebook.com/ankaraeczaci" target="_blank"><i
                 class="fab fa-facebook-f"></i></a>
@@ -30,6 +32,7 @@
             <a href="https://www.instagram.com/ankaraeczaci" target="_blank"><i
                 class="fab fa-instagram"></i></a>
           </li>
+          -->
         </ul>
       </div>
     </div>
@@ -64,6 +67,15 @@ export default {
 };
 </script>
 <style>
+
+.nav-item {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.nav-item:first-child {
+  margin-left: 75px; /* İlk linkin sağ tarafına boşluk ekleme */
+}
 .logo_title {
   color: #c11627;
 }
