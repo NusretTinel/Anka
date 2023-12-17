@@ -1,4 +1,4 @@
-# ankamain
+# aeo-vue
 
 ## Project setup
 ```
