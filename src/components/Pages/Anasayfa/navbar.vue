@@ -1,25 +1,56 @@
 <template>
+<<<<<<< HEAD:src/components/Pages/Anasayfa/navbar.vue
   <nav  class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
       <img width="600px" height="300px" src="../../../assets/images/imgAnka/logo.png">
+=======
+
+  <nav style="color:red" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img width="250px" height="125px" src="../../assets/images/imgAnka/logo.png">
+>>>>>>> 236282dd107363dd81bffb2dd03380c32f378559:src/components/Pages/navbar.vue
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
+<<<<<<< HEAD:src/components/Pages/Anasayfa/navbar.vue
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
       <div class="navbar-nav " >
         <a class="nav-item nav-link" href="#">Ana Sayfa <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link"  href="#">Hizmetlerimiz</a>
         <a class="nav-item nav-link" href="#">Hakkımızda</a>
         <a class="nav-item nav-link" href="#">İletişim</a>
+=======
+    <div  class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+      <div class="navbar-nav">
+        <a  class="nav-item nav-link " href="/anasayfa">Ana Sayfa <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="/hizmetlerimiz">Hizmetlerimiz</a>
+        <a class="nav-item nav-link" href="/hakkimizda">Hakkımızda</a>
+        <a class="nav-item nav-link" href="/contact">İletişim</a>
+>>>>>>> 236282dd107363dd81bffb2dd03380c32f378559:src/components/Pages/navbar.vue
       </div>
       <div class="footer-logo ">
         <ul style="display: flex">
           <li>
-            <a href="mailto:info@ankatedarik.com" taget="blank"><i
+            <a href="mailto:info@ankatedarik.com" target="blank"><i
                 class="fas fa-envelope"></i></a>
           </li>
+          <li>
+            <a href="tel:+90 542 257 28 66">
+              <i class="fas fa-phone"></i>
+
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps/dir/39.9245312,32.8237056/Yeni+Batı,+2401.+Sk.+No:10,+06370+Yenimahalle%2FAnkara/@39.9433593,32.589958,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x14d3364d993fb63b:0x10adcbcc312d295a!2m2!1d32.6854079!2d39.9778253?entry=ttu" target="_blank">
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
+          </li>
+
+
+
+
           <!--
           <li>
             <a href="https://www.facebook.com/ankaraeczaci" target="_blank"><i
@@ -34,9 +65,11 @@
           </li>
           -->
         </ul>
+
       </div>
     </div>
   </nav>
+
 </template>
 
 <script>
@@ -68,13 +101,24 @@ name:'navbarPage',
 </script>
 <style>
 
-.nav-item {
-  margin-right: 15px;
+.navbar{
+  background-color:blue !important;
+}
+.navbar-nav{
+
+}
+.navbar-nav .nav-item {
+  margin-right: 50px;
   font-size: 20px;
+  font-family:monospace;
+  margin-top: 10px;
+color:black !important;
+  background-color: #e5e6e7!important;
+
 }
 
-.nav-item:first-child {
-  margin-left: 75px; /* İlk linkin sağ tarafına boşluk ekleme */
+.navbar-nav .nav-item:first-child {
+  margin-left: 300px; /* İlk linkin sağ tarafına boşluk ekleme */
 }
 .logo_title {
   color: #c11627;
@@ -112,7 +156,7 @@ footer-logo{
   padding-left: 20%;
 }
 
-#c51e2f
+
 
 .input_ani {
   background: transparent;
@@ -323,6 +367,5 @@ footer-logo{
   top: 0px;
   z-index: 2;
 }
-
 
 </style>
