@@ -1,69 +1,33 @@
 <template>
-<<<<<<< HEAD:src/components/Pages/navbar.vue
   <div>
     <div class="nav-menu" @click="showMenu">
       <i class="fas fa-bars"></i>
-      <div class="nav-content" :class="{ 'open-menu': showMobileMenu, 'closed-menu': !showMobileMenu }">
+      <div :class="{ 'open-menu': showMobileMenu, 'closed-menu': !showMobileMenu }" class="nav-content">
         <div class="logo">Logo</div>
         <div>ANKA TEDARİK</div>
-        <ul class="nav-items">
-=======
-<<<<<<< HEAD:src/components/Pages/Anasayfa/navbar.vue
-  <nav  class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img width="600px" height="300px" src="../../../assets/images/imgAnka/logo.png">
-=======
 
-  <nav style="color:red" class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img width="250px" height="125px" src="../../assets/images/imgAnka/logo.png">
->>>>>>> 236282dd107363dd81bffb2dd03380c32f378559:src/components/Pages/navbar.vue
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-<<<<<<< HEAD:src/components/Pages/Anasayfa/navbar.vue
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-      <div class="navbar-nav " >
-        <a class="nav-item nav-link" href="#">Ana Sayfa <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link"  href="#">Hizmetlerimiz</a>
-        <a class="nav-item nav-link" href="#">Hakkımızda</a>
-        <a class="nav-item nav-link" href="#">İletişim</a>
-=======
-    <div  class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-      <div class="navbar-nav">
-        <a  class="nav-item nav-link " href="/anasayfa">Ana Sayfa <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="/hizmetlerimiz">Hizmetlerimiz</a>
-        <a class="nav-item nav-link" href="/hakkimizda">Hakkımızda</a>
-        <a class="nav-item nav-link" href="/contact">İletişim</a>
->>>>>>> 236282dd107363dd81bffb2dd03380c32f378559:src/components/Pages/navbar.vue
-      </div>
-      <div class="footer-logo ">
-        <ul style="display: flex">
->>>>>>> fda4668f40c9231866211de5d4b863a3dd33cea0:src/components/Pages/Anasayfa/navbar.vue
-          <li>
-            <button class="li-button">Hizmetlerimiz</button>
-          </li>
-          <li>
-            <button class="li-button">Hakkımızda</button>
-          </li>
-          <li>
-            <button class="li-button">İletişim</button>
-          </li>
-          <li>
-            <a href="mailto:info@ankatedarik.com" target="_blank"><i class="fas fa-envelope"></i></a>
-          </li>
-          <li>
-            <a href="tel:+905422572866" target="_blank"><i class="fas fa-phone"></i></a>
-          </li>
-          <li>
-            <a href="https://www.google.com/maps/dir/39.9245312,32.8237056/Yeni+Batı,+2401.+Sk.+No:10,+06370+Yenimahalle%2FAnkara/@39.9433593,32.589958,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x14d3364d993fb63b:0x10adcbcc312d295a!2m2!1d32.6854079!2d39.9778253?entry=ttu"
-               target="_blank">
-              <i class="fas fa-map-marker-alt"></i>
-            </a>
-          </li>
-        </ul>
+        <div class="footer-logo">
+          <ul style="display: flex">
+            <li>
+              <button class="li-button">Hizmetlerimiz</button>
+            </li>
+            <li>
+              <button class="li-button">Hakkımızda</button>
+            </li>
+            <li>
+              <button class="li-button">İletişim</button>
+            </li>
+            <li><a href="mailto:info@ankatedarik.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+            <li><a href="tel:+905422572866" target="_blank"><i class="fas fa-phone"></i></a></li>
+            <li>
+              <a href="https://www.google.com/maps/dir/39.9245312,32.8237056/Yeni+Batı,+2401.+Sk.+No:10,+06370+Yenimahalle%2FAnkara/@39.9433593,32.589958,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x14d3364d993fb63b:0x10adcbcc312d295a!2m2!1d32.6854079!2d39.9778253?entry=ttu"
+                 target="_blank">
+                <i class="fas fa-map-marker-alt"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -74,8 +38,8 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 .li-button {
-  background-color: white;
-  color: red;
+  background-color: #000000;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -108,7 +72,7 @@
   margin: 0;
   padding: 0;
 
-  li {
+  & li {
     padding: 0 10px;
   }
 }
@@ -162,6 +126,7 @@ i {
 
 <script>
 import '@fortawesome/fontawesome-free/css/all.css'
+
 export default {
   name: 'navbarPage',
   data() {

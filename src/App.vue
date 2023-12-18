@@ -23,11 +23,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-<<<<<<< HEAD
-  color: #2c3e50;
-=======
 
->>>>>>> 236282dd107363dd81bffb2dd03380c32f378559
+  color: #2c3e50;
+
+
+
   margin-top: 0px;
 }
 
