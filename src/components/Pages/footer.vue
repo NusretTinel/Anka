@@ -1,6 +1,6 @@
 <template>
   <div>
-    araba
+
   </div>
 </template>
 <script>

@@ -1,5 +1,6 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <nav style="color:red" class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
       <img width="250px" height="125px" src="../../assets/images/imgAnka/logo.png">
     </a>
@@ -7,7 +8,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+    <div  class="collapse navbar-collapse" id="navbarNavAltMarkup" >
       <div class="navbar-nav">
         <a  class="nav-item nav-link " href="/anasayfa">Ana Sayfa <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="/hizmetlerimiz">Hizmetlerimiz</a>
@@ -24,6 +25,11 @@
             <a href="tel:+90 542 257 28 66">
               <i class="fas fa-phone"></i>
 
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/maps/dir/39.9245312,32.8237056/Yeni+Batı,+2401.+Sk.+No:10,+06370+Yenimahalle%2FAnkara/@39.9433593,32.589958,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x14d3364d993fb63b:0x10adcbcc312d295a!2m2!1d32.6854079!2d39.9778253?entry=ttu" target="_blank">
+              <i class="fas fa-map-marker-alt"></i>
             </a>
           </li>
 
@@ -44,9 +50,11 @@
           </li>
           -->
         </ul>
+
       </div>
     </div>
   </nav>
+
 </template>
 
 <script>
@@ -77,17 +85,21 @@ name:'navbarPage',
 };
 </script>
 <style>
+
 .navbar{
   background-color:blue !important;
 }
 .navbar-nav{
-  background-color:blue !important;
+
 }
 .navbar-nav .nav-item {
   margin-right: 50px;
   font-size: 20px;
+  font-family:monospace;
   margin-top: 10px;
-color:darkblue !important;
+color:black !important;
+  background-color: #e5e6e7!important;
+
 }
 
 .navbar-nav .nav-item:first-child {
@@ -129,7 +141,7 @@ footer-logo{
   padding-left: 20%;
 }
 
-#c51e2f
+
 
 .input_ani {
   background: transparent;
