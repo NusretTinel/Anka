@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD:src/components/Pages/navbar.vue
   <div>
     <div class="nav-menu" @click="showMenu">
       <i class="fas fa-bars"></i>
@@ -6,6 +7,41 @@
         <div class="logo">Logo</div>
         <div>ANKA TEDARİK</div>
         <ul class="nav-items">
+=======
+<<<<<<< HEAD:src/components/Pages/Anasayfa/navbar.vue
+  <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img width="600px" height="300px" src="../../../assets/images/imgAnka/logo.png">
+=======
+
+  <nav style="color:red" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img width="250px" height="125px" src="../../assets/images/imgAnka/logo.png">
+>>>>>>> 236282dd107363dd81bffb2dd03380c32f378559:src/components/Pages/navbar.vue
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+<<<<<<< HEAD:src/components/Pages/Anasayfa/navbar.vue
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+      <div class="navbar-nav " >
+        <a class="nav-item nav-link" href="#">Ana Sayfa <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link"  href="#">Hizmetlerimiz</a>
+        <a class="nav-item nav-link" href="#">Hakkımızda</a>
+        <a class="nav-item nav-link" href="#">İletişim</a>
+=======
+    <div  class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+      <div class="navbar-nav">
+        <a  class="nav-item nav-link " href="/anasayfa">Ana Sayfa <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="/hizmetlerimiz">Hizmetlerimiz</a>
+        <a class="nav-item nav-link" href="/hakkimizda">Hakkımızda</a>
+        <a class="nav-item nav-link" href="/contact">İletişim</a>
+>>>>>>> 236282dd107363dd81bffb2dd03380c32f378559:src/components/Pages/navbar.vue
+      </div>
+      <div class="footer-logo ">
+        <ul style="display: flex">
+>>>>>>> fda4668f40c9231866211de5d4b863a3dd33cea0:src/components/Pages/Anasayfa/navbar.vue
           <li>
             <button class="li-button">Hizmetlerimiz</button>
           </li>
