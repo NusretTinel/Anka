@@ -24,7 +24,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 
-  color: #2c3e50;
+
 
 
 
@@ -33,7 +33,7 @@ export default {
 
 #app {
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  color:#e5e6e7 !important;
-  background-color: #e5e6e7;
+  color:#e5e6e7 ;
+
 }
 </style>

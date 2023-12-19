@@ -2,13 +2,13 @@
   <div>
     <div class="nav-menu" @click="showMenu">
       <i class="fas fa-bars"></i>
+
       <div :class="{ 'open-menu': showMobileMenu, 'closed-menu': !showMobileMenu }" class="nav-content">
-        <div class="logo">Logo</div>
-        <div>ANKA TEDARİK</div>
-
-
+        <a class="navbar-brand" href="#">
+          <img width="260px" height="89px" src="@/assets/images/imgAnka/logo.png"></a>
         <div class="footer-logo">
           <ul style="display: flex">
+
             <li>
               <button class="li-button">Hizmetlerimiz</button>
             </li>
@@ -26,11 +26,11 @@
                 <i class="fas fa-map-marker-alt"></i>
               </a>
             </li>
+
           </ul>
         </div>
       </div>
-    </div>
-  </div>
+    </div></div>
 </template>
 
 <style lang="scss" scoped>
@@ -38,8 +38,8 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 .li-button {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #adb5bd;
+  color:black;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -47,8 +47,8 @@
 
 
 .nav-menu {
-  height: 75px;
-  background-color: black;
+  height: 130px;
+  background-color:#adb5bd;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,7 +61,7 @@
   align-items: center;
   font-weight: bold;
   font-family: monospace;
-  font-size: 17px;
+  font-size: 18px;
   width: 100%;
 }
 
@@ -76,12 +76,19 @@
   & li {
     padding: 0 10px;
   }
-}
 
-i {
-  display: none;
-}
+  /* Additional styles for the items inside the ul */
+  a {
+    text-decoration: none; /* Remove underlines from links */
+    color: black; /* Set the color for links */
+    font-size: 16px; /* Set the font size for links */
+  }
 
+  i {
+    font-size: 20px; /* Set the font size for the icons */
+    margin-right: 5px; /* Add some right margin to the icons */
+  }
+}
 /* Mobile version - hidden hamburger menu */
 @media screen and (max-width: 768px) {
   .nav-menu {
