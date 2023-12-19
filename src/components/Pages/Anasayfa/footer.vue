@@ -2,53 +2,23 @@
 
   <!-- Footer -->
   <footer class="kapsayici text-center text-lg-start bg-body-tertiary text-muted">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
-      </div>
-      <!-- Left -->
 
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-google"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
 
     <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
+    <section class="" style="background-color: #02494f">
+      <div class="container text-center text-md-start mt-5" style="padding: 10px; color:#d2d2d2; font-weight: bold" >
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Company name
+            <h6 class="text-uppercase fw-bold mb-4" style="color: #d3d1d1">
+              <i class="fas fa-gem me-3">  </i>Anka Tedarik Eğitim ve Danışmanlık A.Ş
             </h6>
-            <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
+            <p style="color: #d2d2d2">
+              Her işte bir fırsat gören Anka Tedarik, kalitenin zirvesine ulaşmanız için güçlü kanatlarıyla size
+              rehberlik ediyor. Ürünlerimizdeki kalite standartları, sadece tedarik değil, aynı zamanda işinizin itici
+              gücü olmaya aday.
             </p>
           </div>
           <!-- Grid column -->
@@ -56,56 +26,58 @@
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Products
+            <div class="col-2">
+            <h6 class="text-uppercase fw-bold mb-4" style="color: #d3d1d1">
+             Hizmetlerimiz
             </h6>
             <p>
-              <a href="#!" class="text-reset">Angular</a>
+              <a class="text-reset" href="#!">MalAlım</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">React</a>
+              <a class="text-reset" href="#!">Mal satışı</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Vue</a>
+              <a class="text-reset" href="#!">İhaleler</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Laravel</a>
+              <a class="text-reset" href="#!">İthalat</a>
             </p>
+            </div>
           </div>
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">Pricing</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Settings</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Orders</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
-            </p>
-          </div>
+<!--          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">-->
+<!--            &lt;!&ndash; Links &ndash;&gt;-->
+<!--            <h6 class="text-uppercase fw-bold mb-4" style="color: #d3d1d1">-->
+<!--              Useful links-->
+<!--            </h6>-->
+<!--            <p>-->
+<!--              <a class="text-reset" href="#!">Pricing</a>-->
+<!--            </p>-->
+<!--            <p>-->
+<!--              <a class="text-reset" href="#!">Settings</a>-->
+<!--            </p>-->
+<!--            <p>-->
+<!--              <a class="text-reset" href="#!">Orders</a>-->
+<!--            </p>-->
+<!--            <p>-->
+<!--              <a class="text-reset" href="#!">Help</a>-->
+<!--            </p>-->
+<!--          </div>-->
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="color: ">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <h6 class="text-uppercase fw-bold mb-4" style="color: #D3D1D1FF">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Ankara/Batıkent</p>
             <p>
               <i class="fas fa-envelope me-3"></i>
-              info@example.com
+              info@ankatedarik.com
             </p>
-            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            <p><i class="fas fa-phone me-3"></i> +90 0542 257 28 66</p>
+            <p><i class="fas fa-print me-3"></i> +90 312 256 15 00</p>
           </div>
           <!-- Grid column -->
         </div>
@@ -116,14 +88,12 @@
 
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2023 Copyright: Anka Tedarik Eğitim Ve Danışmanlık A.Ş
+
     </div>
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
-
-
 
 
 </template>
@@ -137,8 +107,8 @@ export default {
   position: fixed;
   bottom: 0;
   align-content: center;
-  color: white;
-width: 100%;
-  background-color: #012223;
+  color: #9a1e1e;
+  width: 100%;
+  background-color: #18b3cc;
 }
 </style>
