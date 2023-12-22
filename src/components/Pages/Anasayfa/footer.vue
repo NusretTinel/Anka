@@ -68,7 +68,7 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="color: ">
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4" style="color: #D3D1D1FF">Contact</h6>
             <p><i class="fas fa-home me-3"></i> Ankara/Batıkent</p>
@@ -104,7 +104,7 @@ export default {
 </script>
 <style>
 .kapsayici {
-  position: fixed;
+  position: relative; /* Change from fixed to relative */
   bottom: 0;
   align-content: center;
   color: #9a1e1e;
