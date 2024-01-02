@@ -5,7 +5,7 @@
 
 
     <!-- Section: Links  -->
-    <section class="" style="background-color: #02494f">
+    <section class="" style="background-color: #164863">
       <div class="container text-center text-md-start mt-5" style="padding: 10px; color:#d2d2d2; font-weight: bold" >
         <!-- Grid row -->
         <div class="row mt-3">
@@ -87,7 +87,7 @@
     <!-- Section: Links  -->
 
     <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    <div class="text-center p-4" style="background-color: #6d7785; color: white ;">
       © 2023 Copyright: Anka Tedarik Eğitim Ve Danışmanlık A.Ş
 
     </div>

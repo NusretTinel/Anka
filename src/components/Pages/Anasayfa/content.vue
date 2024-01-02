@@ -9,6 +9,9 @@
       <Pagination />
     </template>
   </Carousel>
+  <div class="yazi">
+    <img
+  </div>
 </template>
 
 <script>

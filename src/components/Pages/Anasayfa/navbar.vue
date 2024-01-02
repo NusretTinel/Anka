@@ -44,7 +44,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 .li-button {
-  background-color: #717f8f;
+  background-color: #260225;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
@@ -54,7 +54,7 @@
 
 .nav-menu {
   height: 130px;
-  background-color: #717f8f;
+  background-color: #d6e3f6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,7 +66,7 @@
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
-  font-family: monospace;
+
   font-size: 18px;
   width: 100%;
 }
