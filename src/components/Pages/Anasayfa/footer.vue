@@ -26,22 +26,25 @@
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <div class="col-2">
+            <div class="col-2" style="white-space: nowrap">
             <h6 class="text-uppercase fw-bold mb-4" style="color: #d3d1d1">
              Hizmetlerimiz
             </h6>
             <p>
-              <a class="text-reset" href="#!">MalAlım</a>
+              <a class="text-reset" style="white-space: nowrap" href="#!">Mal Alım</a>
             </p>
             <p>
-              <a class="text-reset" href="#!">Mal satışı</a>
+              <a class="text-reset" style="white-space: nowrap" href="#!">Mal satışı</a>
             </p>
             <p>
-              <a class="text-reset" href="#!">İhaleler</a>
+              <a class="text-reset" style="white-space: nowrap" href="#!">İhaleler</a>
             </p>
             <p>
-              <a class="text-reset" href="#!">İthalat</a>
+              <a class="text-reset" style="white-space: nowrap" href="#!">İthalat</a>
             </p>
+              <p>
+                <a class="text-reset" style="white-space: nowrap" href="#!">İhracat</a>
+              </p>
             </div>
           </div>
           <!-- Grid column -->
