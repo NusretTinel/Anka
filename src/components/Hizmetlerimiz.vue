@@ -2,7 +2,7 @@
   <div>
     <Navbar class="navbar_container"></Navbar>
     <Content></Content>
-    <Footer></Footer>
+    <Footer ></Footer>
   </div>
 </template>
 
