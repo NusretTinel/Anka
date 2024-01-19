@@ -54,7 +54,8 @@
 
 .nav-menu {
   height: 130px;
- background: linear-gradient(to left, rgba(50, 194, 35, 0.84), #eedfac 70%);
+ //background: linear-gradient(to left, rgba(50, 194, 35, 0.84), #eedfac 70%);
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
