@@ -3,9 +3,12 @@
     <div class="nav-menu">
       <div class="nav-content">
         <a class="navbar-brand" href="#">
-          <img width="260px" height="89px" src="@/assets/images/imgAnka/logo.png"></a>
+          <img width="260px" height="89px" src="@/assets/images/imgAnka/Logo.jpg" style="height: 100%; margin-left: 0px "></a>
+        <span class="başlık"> Anka Tedarik</span>
         <div class="footer-logo">
+
           <ul class="nav-items">
+
             <li>
               <button class="li-button">Hizmetlerimiz</button>
             </li>
@@ -40,22 +43,20 @@
 </template>
 
 <style lang="scss" scoped>
-/* Font Awesome stil dosyasını burada içe aktar */
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 .li-button {
-  background-color: #717f8f;
-  color: #ffffff;
+  background-color: #000000;
+  color: #e3b871;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
 }
-
-
 .nav-menu {
   height: 130px;
  //background: linear-gradient(to left, rgba(50, 194, 35, 0.84), #eedfac 70%);
-  background-color: black;
+background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,19 +87,27 @@
 
   a {
     text-decoration: none;
-    color: #020202;
+    color: #e3b871;
     font-size: 16px;
     display: flex;
+    background-color: black;
     align-items: center;}
+
 
     i {
       font-size: 20px;
       margin-right: 5px;
-      background-color: #adb5bd; /* Arka plan rengi eklendi */
+      background-color: #000000; /* Arka plan rengi eklendi */
       padding: 7px; /* İkon etrafındaki boşluk eklendi */
       border-radius: 50%; /* İkonu yuvarlak yapmak için */
 
   }
+}
+.başlık{
+  font-size: 34px;
+font-weight: lighter;
+  margin-left: 10%;
+  color: #e3b871;
 }
 </style>
 
