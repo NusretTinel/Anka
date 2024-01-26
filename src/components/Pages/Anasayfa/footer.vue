@@ -5,7 +5,7 @@
 
 
     <!-- Section: Links  -->
-    <section class="" style="background: linear-gradient(to right, #1edabe, #000000);">
+    <section class="" style="background: linear-gradient(to right, #000912,#000f23,#000912);">
       <div class="container text-center text-md-start mt-5" style="padding: 10px; color:#d2d2d2; font-weight: bold" >
         <!-- Grid row -->
         <div class="row mt-3">
@@ -114,4 +114,5 @@ export default {
   width: 100%;
   background-color: #18b3cc;
 }
+
 </style>

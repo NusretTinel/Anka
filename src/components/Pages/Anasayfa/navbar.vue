@@ -48,10 +48,13 @@
 
 .li-button {
   background-color: #000000;
-  color: #e3b871;
+  color: #f93c3e;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+}
+.li-button:hover{
+  color: #ffffff;
 }
 .nav-menu {
   height: 130px;
@@ -87,7 +90,7 @@ background-color: black;
 
   a {
     text-decoration: none;
-    color: #e3b871;
+    color: #f93c3e;
     font-size: 16px;
     display: flex;
     background-color: black;
@@ -103,11 +106,23 @@ background-color: black;
 
   }
 }
-.başlık{
+.a:hover{
+  color: #ffffff;
+}
+.başlık {
   font-size: 34px;
-font-weight: lighter;
+  font-weight: lighter;
   margin-left: 10%;
-  color: #e3b871;
+  background: linear-gradient(to right, #e3b871, #f93c3e); /* Mavi ve kırmızı arka plan gradient */
+  -webkit-background-clip: text; /* Metni arka plana kırp */
+  color: transparent; /* Metni şeffaf yap */
+}
+
+.başlık:hover{
+  font-size: 34px;
+  font-weight: lighter;
+  margin-left: 10%;
+  color: #ffffff;
 }
 </style>
 
