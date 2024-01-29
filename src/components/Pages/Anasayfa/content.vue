@@ -11,7 +11,7 @@
       <img alt="Arka Plan Resmi" class="background-image" src="@/assets/plane.jpg">
 
       <div :class="{ 'overlay-visible': hovered }" class="overlay">
-        <span> fdgfgdg</span>
+   <img alt="Arka Plan Resmi" class="background-image" src="@/assets/images/imgAnka/Artboard.jpg">
       </div>
     </div>
 
