@@ -1,39 +1,29 @@
 <template>
   <div>
-  <HelloWorld></HelloWorld>
-  </div>
 
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
 
-import HelloWorld from "@/components/Anasayfa.vue";
 
 export default {
-  components: {HelloWorld}
-
-
+  components: {  }
 }
 </script>
 
 <style>
 #app {
-
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-
-
-
-
-
   margin-top: 0px;
 }
 
 #app {
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  color:#e5e6e7 ;
-
+  color: #e5e6e7;
 }
 </style>

@@ -2,28 +2,36 @@
   <div>
     <div class="nav-menu">
       <div class="nav-content">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" >
           <img width="260px" height="89px" src="@/assets/images/imgAnka/lastlogo.png" style="height: 100%; margin-left: 0px "></a>
-        <span class="başlık"> Anka Tedarik</span>
+        <router-link to="/anasayfa">
+          <span class="başlık"> Anka Tedarik</span>
+        </router-link>
+
         <div class="footer-logo">
 
           <ul class="nav-items">
 
-            <li>
-              <button class="li-button">Hizmetlerimiz</button>
-            </li>
-            <li>
-              <button class="li-button">Hakkımızda</button>
-            </li>
-            <li>
-              <button class="li-button">İletişim</button>
-            </li>
-            <li>
-              
+
+              <router-link to="/hizmetlerimiz">
+                <button class="li-button">Hizmetlerimiz</button>
+              </router-link>
+
+
+              <router-link to="/hakkimizda">
+                <button class="li-button">Hakkımızda</button>
+              </router-link>
+
+
+              <router-link to="/contact">
+                <button class="li-button">İletişim</button>
+              </router-link>
+
+
               <a href="mailto:info@ankatedarik.com" target="_blank">
                 <i class="fas fa-envelope"></i>
               </a>
-            </li>
+
             <li>
               <a href="tel:+905422572866" target="_blank">
                 <i class="fas fa-phone"></i>

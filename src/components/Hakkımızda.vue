@@ -9,7 +9,7 @@
 <script>
 import { defineComponent } from 'vue';
 import Navbar from "@/components/Pages/Anasayfa/navbar.vue";
-import Content from "@/components/Pages/Hakkımızda/content.vue";
+import Content from "@/components/Pages/Hakkimizda/content.vue";
 import Footer from "@/components/Pages/Anasayfa/footer.vue";
 
 export default defineComponent({

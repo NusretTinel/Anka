@@ -10,7 +10,7 @@
 import { defineComponent } from 'vue';
 import Navbar from "@/components/Pages/Anasayfa/navbar.vue";
 import Footer from "@/components/Pages/Anasayfa/footer.vue";
-import Content from "@/components/Pages/İletişim/content.vue";
+import Content from "@/components/Pages/Iletisim/content.vue";
 export default defineComponent({
   components: { Navbar, Content, Footer },
   name: 'HelloWorld',

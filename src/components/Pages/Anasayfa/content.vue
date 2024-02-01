@@ -8,7 +8,7 @@
   </div>
 
   <div class="row" style="">
-    <div class="image-overlay" @click="toggleOverlay" @mouseenter="hovered = true" @mouseleave="hovered = false" style="height: 30rem">
+    <div class="image-overlay"  style="height: 30rem">
       <img alt="Arka Plan Resmi" class="background-image" src="@/assets/images/imgAnka/lastlogo.png"   >
 
       <div :class="{ 'overlay-visible': hovered }" class="overlay">
@@ -42,7 +42,13 @@ export default defineComponent({
   methods: {
     toggleOverlay() {
       this.showOverlay = !this.showOverlay;
-    }
+    },
+    clickHrefMethod(href) {
+      window.open(href, "_blank");
+    },
+    clickRouteMethod(route) {
+      this.$router.push(route);
+    },
   }
 });
 </script>

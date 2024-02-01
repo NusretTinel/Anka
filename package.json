@@ -16,7 +16,7 @@
     "core-js": "^3.8.3",
     "flowbite-vue": "^0.1.2",
     "mdb-vue-ui-kit": "^4.1.1",
-    "vue": "^3.2.13",
+    "vue": "^3.4.15",
     "vue-router": "^4.2.5",
     "vue-slick-carousel": "^1.0.6",
     "vue3-carousel": "^0.3.1"
