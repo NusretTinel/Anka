@@ -1,25 +1,35 @@
 <template>
   <div class="kutu">
     <div class="row">
-      <img src="@/assets/images/imgAnka/Artboard.jpg" style="width: 100%; margin-bottom: 20px;">
+      <img src="@/assets/images/imgAnka/Artboard.jpg" style="width: 100%; ;">
     </div>
 
 
   </div>
-  <div class="row">
-    <div class="image-overlay" @click="toggleOverlay" @mouseenter="hovered = true" @mouseleave="hovered = false">
-      <img alt="Arka Plan Resmi" class="background-image" src="@/assets/plane.jpg">
+
+  <div class="row" style="">
+    <div class="image-overlay" @click="toggleOverlay" @mouseenter="hovered = true" @mouseleave="hovered = false" style="height: 30rem">
+      <img alt="Arka Plan Resmi" class="background-image" src="@/assets/images/imgAnka/lastlogo.png"   >
 
       <div :class="{ 'overlay-visible': hovered }" class="overlay">
-   <img alt="Arka Plan Resmi" class="background-image" src="@/assets/images/imgAnka/Artboard.jpg">
-      </div>
-    </div>
 
-  </div>
+          <h1 class="h1" >
+            AnkaTedarik olarak Türkiye’nin ve dünyanın her yerinden gelen veri akışımızla tam
+            ihtiyacınız olan ürünü en uygun fiyat teklifleriyle, kısa süre içerisinde, elinize ulaştırıyoruz. Amacımız
+            müşterilerimizi yoğun iş temposunda eforsuz bir şekilde ürünlerine ulaştırmak olup birçok şirketle iş
+            birliği yaparak sınırsız kategoride her türlü ürünü sizlere tedarik etmektir.
+          </h1>
+        </div>
+      </div>
+      </div>
+
+
+
 
 </template>
 
 <script>
+
 import {defineComponent} from 'vue';
 
 export default defineComponent({
@@ -78,12 +88,22 @@ export default defineComponent({
 
 .image-overlay:hover .background-image {
   opacity: 10%; /* Hover olduğunda arka plan resmini tamamen görünür yapın */
+
 }
 
 .image-overlay:hover .overlay {
-  opacity: 1; /* Hover olduğunda açılan resmi görünür yapın */
+  opacity: 100; /* Hover olduğunda açılan resmi görünür yapın */
+  background-color: #f5f5f5;
 }
+.h1{
+  background: linear-gradient(to right, #e3b871, #b00101);
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+  padding-top: 10rem;
+  height: 35rem;
 
+}
 .kutu {
   display: flex;
   flex-direction: column;

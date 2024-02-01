@@ -3,7 +3,7 @@
     <div class="nav-menu">
       <div class="nav-content">
         <a class="navbar-brand" href="#">
-          <img width="260px" height="89px" src="@/assets/images/imgAnka/Logo.jpg" style="height: 100%; margin-left: 0px "></a>
+          <img width="260px" height="89px" src="@/assets/images/imgAnka/lastlogo.png" style="height: 100%; margin-left: 0px "></a>
         <span class="başlık"> Anka Tedarik</span>
         <div class="footer-logo">
 
@@ -58,8 +58,8 @@
 }
 .nav-menu {
   height: 130px;
- //background: linear-gradient(to left, rgba(50, 194, 35, 0.84), #eedfac 70%);
-background-color: black;
+
+background-color: #000308;
   display: flex;
   justify-content: space-between;
   align-items: center;
