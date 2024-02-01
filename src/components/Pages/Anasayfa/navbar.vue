@@ -4,7 +4,7 @@
       <div class="nav-content">
         <a class="navbar-brand" >
           <img width="260px" height="89px" src="@/assets/images/imgAnka/lastlogo.png" style="height: 100%; margin-left: 0px "></a>
-        <router-link to="/anasayfa">
+        <router-link to="/">
           <span class="başlık"> Anka Tedarik</span>
         </router-link>
 

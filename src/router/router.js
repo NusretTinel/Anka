@@ -7,7 +7,7 @@ import Contact from '@/components/Contact.vue';
 
 
 const routes = [
-    { path: '/anasayfa', component: Anasayfa },
+    { path: '/', component: Anasayfa },
     { path: '/hizmetlerimiz', component: Hizmetlerimiz },
     { path: '/hakkimizda', component: Hakkimizda },
     { path: '/contact', component: Contact },
