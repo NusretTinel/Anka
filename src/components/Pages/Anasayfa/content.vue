@@ -1,29 +1,30 @@
 <template>
-  <div class="kutu">
-    <div class="row">
-      <img src="@/assets/images/imgAnka/Artboard.jpg" style="width: 100%; ;">
-    </div>
+  <div class="arkaplan">
+
+    <Navbar ></Navbar>
 
 
   </div>
 
-  <div class="row" style="">
-    <div class="image-overlay"  style="height: 30rem">
-      <img alt="Arka Plan Resmi" class="background-image" src="@/assets/images/imgAnka/lastlogo.png"   >
-
-      <div :class="{ 'overlay-visible': hovered }" class="overlay">
-
-          <h1 class="h1" >
-            AnkaTedarik olarak Türkiye’nin ve dünyanın her yerinden gelen veri akışımızla tam
-            ihtiyacınız olan ürünü en uygun fiyat teklifleriyle, kısa süre içerisinde, elinize ulaştırıyoruz. Amacımız
-            müşterilerimizi yoğun iş temposunda eforsuz bir şekilde ürünlerine ulaştırmak olup birçok şirketle iş
-            birliği yaparak sınırsız kategoride her türlü ürünü sizlere tedarik etmektir.
-          </h1>
-        </div>
-      </div>
-      </div>
 
 
+
+
+<!--  <div class="row" style="">-->
+<!--    <div class="image-overlay" style="height: 30rem">-->
+<!--      <img alt="Arka Plan Resmi" class="background-image" src="@/assets/images/imgAnka/lastlogo.png">-->
+
+<!--      <div :class="{ 'overlay-visible': hovered }" class="overlay">-->
+
+<!--        <h1 class="h1">-->
+<!--          AnkaTedarik olarak Türkiye’nin ve dünyanın her yerinden gelen veri akışımızla tam-->
+<!--          ihtiyacınız olan ürünü en uygun fiyat teklifleriyle, kısa süre içerisinde, elinize ulaştırıyoruz. Amacımız-->
+<!--          müşterilerimizi yoğun iş temposunda eforsuz bir şekilde ürünlerine ulaştırmak olup birçok şirketle iş-->
+<!--          birliği yaparak sınırsız kategoride her türlü ürünü sizlere tedarik etmektir.-->
+<!--        </h1>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
 
 </template>
@@ -31,9 +32,12 @@
 <script>
 
 import {defineComponent} from 'vue';
+import Navbar from "@/components/Pages/Anasayfa/navbar.vue";
 
 export default defineComponent({
   name: 'componentPage',
+  components: {Navbar},
+  // components: {Navbar},
   data() {
     return {
       showOverlay: false
@@ -82,7 +86,10 @@ export default defineComponent({
   opacity: 0; /* Başlangıçta görünmez */
   transition: opacity 0.3s ease; /* Geçiş efekti ekleyin */
 }
-
+.arkaplan{
+  background-image: url("../../../assets/images/imgAnka/22.jpg");
+  height: 989px;
+}
 .overlay img {
   max-width: 100%;
   max-height: 100%;
@@ -101,7 +108,8 @@ export default defineComponent({
   opacity: 100; /* Hover olduğunda açılan resmi görünür yapın */
   background-color: #f5f5f5;
 }
-.h1{
+
+.h1 {
   background: linear-gradient(to right, #e3b871, #b00101);
   padding-left: 5rem;
   padding-right: 5rem;
@@ -110,10 +118,14 @@ export default defineComponent({
   height: 35rem;
 
 }
+
 .kutu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ background-image: url('@/assets/images/imgAnka/22.jpg');
+padding-top: 1%;
+
+  width: 100%;
+  height: 1000px
+
 }
 
 .resimkare {
