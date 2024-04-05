@@ -87,7 +87,7 @@ export default defineComponent({
   transition: opacity 0.3s ease; /* Geçiş efekti ekleyin */
 }
 .arkaplan{
-  background-image: url("../../../assets/images/imgAnka/22.jpg");
+  background-image: url("../../../assets/images/imgAnka/Artboard_2.png");
   height: 989px;
 }
 .overlay img {

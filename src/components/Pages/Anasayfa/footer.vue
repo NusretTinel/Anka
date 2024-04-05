@@ -72,8 +72,9 @@
 
           <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="">
+
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4" style="color: #D3D1D1FF">Contact</h6>
+            <h6 class="text-uppercase fw-bold mb-4" style="color: #D3D1D1FF">İletişim</h6>
             <p><i class="fas fa-home me-3"></i> Ankara/Batıkent</p>
             <p>
               <i class="fas fa-envelope me-3"></i>
