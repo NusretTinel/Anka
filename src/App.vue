@@ -26,4 +26,7 @@ export default {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   color: #e5e6e7;
 }
+body {
+  overflow-x: hidden;
+}
 </style>

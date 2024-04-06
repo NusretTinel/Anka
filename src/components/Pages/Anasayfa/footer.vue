@@ -47,33 +47,10 @@
               </p>
             </div>
           </div>
-          <!-- Grid column -->
 
-          <!-- Grid column -->
-<!--          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">-->
-<!--            &lt;!&ndash; Links &ndash;&gt;-->
-<!--            <h6 class="text-uppercase fw-bold mb-4" style="color: #d3d1d1">-->
-<!--              Useful links-->
-<!--            </h6>-->
-<!--            <p>-->
-<!--              <a class="text-reset" href="#!">Pricing</a>-->
-<!--            </p>-->
-<!--            <p>-->
-<!--              <a class="text-reset" href="#!">Settings</a>-->
-<!--            </p>-->
-<!--            <p>-->
-<!--              <a class="text-reset" href="#!">Orders</a>-->
-<!--            </p>-->
-<!--            <p>-->
-<!--              <a class="text-reset" href="#!">Help</a>-->
-<!--            </p>-->
-<!--          </div>-->
-          <!-- Grid column -->
 
-          <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="">
 
-            <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4" style="color: #D3D1D1FF">İletişim</h6>
             <p><i class="fas fa-home me-3"></i> Ankara/Batıkent</p>
             <p>
@@ -83,21 +60,21 @@
             <p><i class="fas fa-phone me-3"></i> +90 0542 257 28 66</p>
             <p><i class="fas fa-print me-3"></i> +90 312 256 15 00</p>
           </div>
-          <!-- Grid column -->
+
         </div>
-        <!-- Grid row -->
+
       </div>
     </section>
-    <!-- Section: Links  -->
 
-    <!-- Copyright -->
+
+
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2023 Copyright: Anka Tedarik Eğitim Ve Danışmanlık A.Ş
 
     </div>
-    <!-- Copyright -->
+
   </footer>
-  <!-- Footer -->
+
 
 
 </template>
@@ -114,6 +91,7 @@ export default {
   color: #9a1e1e;
   width: 100%;
   background-color: #18b3cc;
+
 }
 
 </style>
