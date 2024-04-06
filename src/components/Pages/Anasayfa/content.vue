@@ -32,7 +32,7 @@
 <script>
 
 import {defineComponent} from 'vue';
-import Navbar from "@/components/Pages/Anasayfa/navbar.vue";
+import Navbar from "@/components/Utility/navbar.vue";
 
 export default defineComponent({
   name: 'componentPage',

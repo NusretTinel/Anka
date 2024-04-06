@@ -48,16 +48,16 @@
       <div class="row">
 
         <div class="col-lg-2 light">
-          <button class="başlık"> Anasayfa</button>
+          <button class="başlık" @click="clickRouteMethod( '/')"> Anasayfa</button>
         </div>
         <div class="col-lg-2 light">
-          <button class="başlık"> Hakkımızda</button>
+          <button class="başlık " @click="clickRouteMethod( '/hakkimizda')"> Hakkımızda</button>
         </div>
         <div class="col-lg-2 light">
-          <button class="başlık"> İletişim</button>
+          <button class="başlık" @click="clickRouteMethod( '/contact')" > İletişim</button>
         </div>
         <div class="col-lg-2 light">
-          <button class="başlık"> Hizmetlerimiz</button>
+          <button class="başlık" @click="clickRouteMethod( '/hizmetlerimiz')" > Hizmetlerimiz</button>
         </div>
       </div>
 
@@ -94,6 +94,14 @@ import {ref} from "vue";
 export default {
   name: 'navbarPage',
   components: {},
+  methods: {
+    clickRouteMethod(route) {
+      this.$router.push(route);
+    },
+    clickHrefMethod(href) {
+      window.open(href, "_blank");
+    },
+  },
   setup() {
     const collapse7 = ref(false);
 

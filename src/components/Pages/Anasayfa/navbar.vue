@@ -42,15 +42,15 @@
         > <a style="color: white" >Anasayfa </a >
         </MDBNavbarItem
         >
-        <MDBNavbarItem href="/hizmetlerimiz"  linkClass="link-secondary" style="font-weight: bold ; font-size: 30px;margin-left: 10vh;font-family: SandrinaRegular, Sandrina"
+        <MDBNavbarItem href="/hakkimizda"  linkClass="link-secondary" style="font-weight: bold ; font-size: 30px;margin-left: 10vh;font-family: SandrinaRegular, Sandrina"
         ><a style="color: white" > Hakkımızda</a>
         </MDBNavbarItem
         >
-        <MDBNavbarItem href="/hakkimizda" linkClass="link-secondary" style="font-weight: bold ; font-size: 30px ; margin-left: 10vh;font-family: SandrinaRegular, Sandrina"
+        <MDBNavbarItem href="/contact" linkClass="link-secondary" style="font-weight: bold ; font-size: 30px ; margin-left: 10vh;font-family: SandrinaRegular, Sandrina"
         ><a style="color: white" >İletişim</a>
         </MDBNavbarItem
         >
-        <MDBNavbarItem href="/contact" linkClass="link-secondary" style="font-weight: bold ; font-size: 30px ; margin-left: 10vh;font-family: SandrinaRegular, Sandrina"
+        <MDBNavbarItem href="/hizmetlerimiz" linkClass="link-secondary" style="font-weight: bold ; font-size: 30px ; margin-left: 10vh;font-family: SandrinaRegular, Sandrina"
         ><a style="color: white" > Hizmetlerimiz </a>
         </MDBNavbarItem
         >
@@ -111,6 +111,10 @@ export default {
     MDBIcon,
     MDBCollapse
   },
+
+
+
+
   setup() {
     const collapse7 = ref(false);
 
