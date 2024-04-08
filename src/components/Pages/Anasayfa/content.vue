@@ -1,30 +1,42 @@
 <template>
-  <div class="arkaplan">
+  <Navbar></Navbar>
+  <div class="kap">
+    <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+         style="height: 100vh ;width: 100vw ;"/>
 
-    <Navbar ></Navbar>
+
+    <div class="row">
+
+      <div class="col-lg-4 virtual ">
+        <div class="row yazı1">
+        
+
+        </div>
+      </div>
+      <div class="col-lg-4 virtual">
+
+      </div>
+    </div>
 
 
   </div>
 
 
+  <!--  <div class="row" style="">-->
+  <!--    <div class="image-overlay" style="height: 30rem">-->
+  <!--      <img alt="Arka Plan Resmi" class="background-image" src="@/assets/images/imgAnka/lastlogo.png">-->
 
+  <!--      <div :class="{ 'overlay-visible': hovered }" class="overlay">-->
 
-
-<!--  <div class="row" style="">-->
-<!--    <div class="image-overlay" style="height: 30rem">-->
-<!--      <img alt="Arka Plan Resmi" class="background-image" src="@/assets/images/imgAnka/lastlogo.png">-->
-
-<!--      <div :class="{ 'overlay-visible': hovered }" class="overlay">-->
-
-<!--        <h1 class="h1">-->
-<!--          AnkaTedarik olarak Türkiye’nin ve dünyanın her yerinden gelen veri akışımızla tam-->
-<!--          ihtiyacınız olan ürünü en uygun fiyat teklifleriyle, kısa süre içerisinde, elinize ulaştırıyoruz. Amacımız-->
-<!--          müşterilerimizi yoğun iş temposunda eforsuz bir şekilde ürünlerine ulaştırmak olup birçok şirketle iş-->
-<!--          birliği yaparak sınırsız kategoride her türlü ürünü sizlere tedarik etmektir.-->
-<!--        </h1>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
+  <!--        <h1 class="h1">-->
+  <!--          AnkaTedarik olarak Türkiye’nin ve dünyanın her yerinden gelen veri akışımızla tam-->
+  <!--          ihtiyacınız olan ürünü en uygun fiyat teklifleriyle, kısa süre içerisinde, elinize ulaştırıyoruz. Amacımız-->
+  <!--          müşterilerimizi yoğun iş temposunda eforsuz bir şekilde ürünlerine ulaştırmak olup birçok şirketle iş-->
+  <!--          birliği yaparak sınırsız kategoride her türlü ürünü sizlere tedarik etmektir.-->
+  <!--        </h1>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
 
 
 </template>
@@ -58,6 +70,35 @@ export default defineComponent({
 </script>
 
 <style>
+.yazı1 {
+  width: 30vw;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 3vh;
+  margin-left: 1vw;
+  line-height: 32px;
+
+}
+
+.kap {
+  background-color: #00001f;
+}
+
+.resim {
+  width: 100vw;
+  height: 100vh;
+}
+
+.virtual {
+  width: 0vw;
+  height: 40vh;
+
+  background: linear-gradient(to top, #181818, #02084d);
+  margin-right: 2vw;
+  margin-left: 10vw;
+  margin-top: 6vh;
+  border-radius: 20px;
+}
 
 .image-overlay {
   position: relative;
@@ -86,10 +127,13 @@ export default defineComponent({
   opacity: 0; /* Başlangıçta görünmez */
   transition: opacity 0.3s ease; /* Geçiş efekti ekleyin */
 }
-.arkaplan{
+
+.arkaplan {
   background-image: url("../../../assets/images/imgAnka/Artboard_2.png");
-  height: 989px;
+  height: 100vh;
+  width: 100vw;
 }
+
 .overlay img {
   max-width: 100%;
   max-height: 100%;
@@ -120,8 +164,8 @@ export default defineComponent({
 }
 
 .kutu {
- background-image: url('@/assets/images/imgAnka/22.jpg');
-padding-top: 1%;
+  background-image: url('@/assets/images/imgAnka/22.jpg');
+  padding-top: 1%;
 
   width: 100%;
   height: 1000px

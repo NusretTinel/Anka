@@ -1,5 +1,5 @@
 <template>
-  <div class="row" style="background-color: BLACK ; height: 10vh; margin-bottom: 30px; width: 100%">
+  <div class="row" style="background-color: BLACK ; height: 10vh; ; width: 100%">
 
     <div class="col-lg-2">
       <div class="at">
