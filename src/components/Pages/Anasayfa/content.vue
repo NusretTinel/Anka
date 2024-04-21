@@ -7,18 +7,69 @@
 
     <div class="row">
 
-      <div class="col-lg-4 virtual ">
-        <div class="row yazı1">
-        
+      <div class="col-lg-2 mpbox ">
+        <div class="row içerik">
+
 
         </div>
       </div>
-      <div class="col-lg-4 virtual">
+      <div class="col-lg-5 yazımp ">
 
+
+   <span class="içerik">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </span>
       </div>
     </div>
+    <div class="row" style=" display: flex; justify-content: center;margin-top: 10vh;">
+      <div class="boxlight">
+        <div class="row yazıkutu">
+          LOREM İPSUM DOLER SİT
+        </div>
+        <div class="row resimkutu">
+        </div>
+      </div>
+      <div class="boxlight">
+        <div class="row yazıkutu ">
+          LOREM İPSUM DOLER SİT
 
+        </div>
+        <div class="row resimkutu">
 
+        </div>
+      </div>
+      <div class="boxlight">
+        <div class="row yazıkutu ">
+          LOREM İPSUM DOLER SİT
+        </div>
+        <div class="row resimkutu">
+
+        </div>
+      </div>
+      <div class="boxlight">
+        <div class="row yazıkutu ">
+          LOREM İPSUM DOLER SİT
+        </div>
+        <div class="row resimkutu">
+
+        </div>
+      </div>
+      <div class="boxlight">
+        <div class="row yazıkutu ">
+          LOREM İPSUM DOLER SİT
+        </div>
+        <div class="row resimkutu">
+
+        </div>
+      </div>
+      <div class="boxlight">
+        <div class="row yazıkutu ">
+          LOREM İPSUM DOLER SİT
+        </div>
+        <div class="row resimkutu">
+
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -70,6 +121,38 @@ export default defineComponent({
 </script>
 
 <style>
+.kutuyazısı {
+
+}
+
+.yazıkutu {
+  height: 3vh;
+
+  margin-top: 2vh;
+  margin-left: 2vw;
+  display: flex;
+  justify-content: left;
+  margin-right: 10px;
+  background-color: #002942;
+}
+
+.resimkutu {
+height: 3vh;
+  margin: 3vh 2vw 30px 2vw;
+  display: flex;
+  justify-content: center;
+  background-color: #002942;
+}
+
+.boxlight {
+
+  margin-right: 1vw;
+  background-color: #e3e3f8;
+  height: 30vh;
+  width: 15vw;
+
+}
+
 .yazı1 {
   width: 30vw;
   font-weight: bold;
@@ -80,8 +163,30 @@ export default defineComponent({
 
 }
 
+.içerik {
+
+
+  width: 40%;
+}
+
+.yazımp {
+  text-align: left;
+
+  line-height: 5vh;
+  height: 20vh;
+  margin-right: 2vw;
+  margin-left: 13vw;
+  margin-top: 4vh;
+  border-radius: 20px;
+
+  color: #002942;
+  font-size: 35px;
+  font-weight: 600;
+
+}
+
 .kap {
-  background-color: #00001f;
+  background: linear-gradient(to top, #dcdcdc, #0d6efd);
 }
 
 .resim {
@@ -89,15 +194,18 @@ export default defineComponent({
   height: 100vh;
 }
 
-.virtual {
+.mpbox {
   width: 0vw;
-  height: 40vh;
-
-  background: linear-gradient(to top, #181818, #02084d);
+  height: 20vh;
+  margin-bottom: 8vh;
+  display: flex;
+  font-family: Calibri;
+  justify-content: center;
   margin-right: 2vw;
   margin-left: 10vw;
   margin-top: 6vh;
   border-radius: 20px;
+  background-color: black;
 }
 
 .image-overlay {
