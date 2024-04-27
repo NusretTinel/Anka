@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row banner ">
-      <img src="@/assets/images/Tema/wallpaperflare.com_wallpaper.jpg" style="height: 30vh">
+      <img src="@/assets/images/Tema/space.jpg" style="height: 30vh">
       <div class="imageonw">
         Biz Kimiz ?
       </div>

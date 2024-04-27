@@ -37,6 +37,13 @@ export default {
 }
 </script>
 <style>
+.card {
+  width: 20vw;
+  height: 254px;
+  border-radius: 30px;
+  background: lightgrey;
+  box-shadow: #046fb7 0px 30px 50px -12px inset, #0220af 0px 18px 26px -18px inset;
+}
 .İletisimBaslık {
   font-weight: bold;
   font-size: 30px;
@@ -62,8 +69,9 @@ export default {
   height: 30vh;
   width: 30vw;
   background: linear-gradient(to top, #c1c1c1, #ffffff);
-font-family: SandrinaRegular, Sandrina;
+  font-family: SandrinaRegular, Sandrina;
   display: flex;
+  box-shadow: #046fb7 0px 30px 50px -12px inset, #0220af 0px 18px 26px -18px inset;
 //justify-content: center; /* Yatayda ortalar */ //align-items: center;  /* Yatayda ortalar */ border-radius: 10px; border-color: black;
 }
 </style>
