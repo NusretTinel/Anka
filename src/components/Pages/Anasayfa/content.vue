@@ -20,12 +20,13 @@
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </span>
       </div>
     </div>
-    <div class="row" style=" display: flex; justify-content: center;margin-top: 10vh;">
+    <div class="row" style=" display: flex; justify-content: center;margin-top: 9vh;height: 40vh">
       <div class="boxlight">
         <div class="row yazıkutu">
           LOREM İPSUM DOLER SİT
         </div>
         <div class="row resimkutu">
+          asdsd
         </div>
       </div>
       <div class="boxlight">
@@ -126,19 +127,27 @@ export default defineComponent({
 }
 
 .yazıkutu {
-  height: 3vh;
-
-  margin-top: 2vh;
-  margin-left: 2vw;
+  height: 6vh;
+padding-top: 1.5vh;
+  margin-top: 5vh;
+  margin-left: 1vw;
   display: flex;
-  justify-content: left;
-  margin-right: 10px;
-  background-color: #002942;
+  justify-content: center;
+  margin-right: 1vh;
+  background-color: transparent;
+  color: #cb0000;
+  font-size: 20px;
+  font-weight: 900
+
 }
 
 .resimkutu {
-height: 3vh;
-  margin: 3vh 2vw 30px 2vw;
+margin-top: 2vh;
+  padding-top: 1vh;
+
+height: 15vh;
+  margin-right: 2vw;
+  margin-left: 2vw;
   display: flex;
   justify-content: center;
   background-color: #002942;
@@ -148,7 +157,7 @@ height: 3vh;
 
   margin-right: 1vw;
   background-color: #e3e3f8;
-  height: 30vh;
+  height: 34vh;
   width: 15vw;
 
 }

@@ -1,7 +1,7 @@
 <template>
 
   <!-- Footer -->
-  <footer class="kapsayici text-center text-lg-start bg-body-tertiary text-muted">
+  <footer class="kapsayici text-center  bg-body-tertiary text-muted">
 
 
     <!-- Section: Links  -->
@@ -91,7 +91,7 @@ export default {
   color: #9a1e1e;
   width: 100%;
   background-color: #18b3cc;
-
+height: 35vh;
 }
 
 </style>
