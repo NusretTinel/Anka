@@ -1,44 +1,91 @@
 <template>
-  <div class="kutu">
-
-      <div class="baslik" style="padding-top: 3rem">
-        <div class="row">
-          <div class="col-lg-8">
-        <div class="misyon">
-
-          <h2>MİSYONUMUZ</h2>
-          <p>AnkaTedarik ihtiyaçlarınız dahilinde yüksek kalite anlayışıyla global fiyatlandırmaya göre en  uygun fiyatla,  ürünü sizin için tedarik eder.
-
-            AnkaTedarik olarak  Türkiye’nin ve dünyanın her yerinden gelen veri akışımızla tam ihtiyacınız olan ürünü  en uygun fiyat teklifleriyle, kısa süre içerisinde, elinize ulaştırıyoruz. Amacımız  müşterilerimizi yoğun iş temposunda eforsuz bir şekilde ürünlerine ulaştırmak olup bir çok şirketle iş birliği yaparak sınırsız kategoride her türlü ürünü sizlere tedarik etmektir.
-
-
-
-          </p>
-        </div>
-          </div>
-          <div class="col-lg-4"></div>
-        </div>
-          <div class="row">
-            <div class="col-lg-8">
-        <div class="vizyon">
-          <h2>VİZYONUMUZ</h2>
-          <p>
-            İnovasyon ve girişimcilik ruhumuzla kendimizi devamlı geliştirdiğimiz AnkaTedarik müşterilerinin yorumlarını ve isteklerini daima ön plana koyarak her zaman daha iyi hizmet kalitesiyle karşınızda olmayı hedefler.
-
-            AnkaTedarik, uzun yıllara dayanan ticaret deneyimi ile birleşen geniş ürün portföyü sayesinde, yüksek kalite standartlarına ve rekabetçi fiyat politikalarına odaklanarak tüm müşterilerine memnuniyet ve güven sunmayı amaçlamaktadır. Hedefimiz, dünya genelinde yer edinerek, müşterilerimizle sürdürülebilir ve karşılıklı kazançlı ilişkiler kurmak ve ticarette öncü bir rol oynamaktır. </p>
-        </div>
-          </div>
-            <div class="col-lg-4"></div>
-          </div>
+  <div>
+    <div class="row banner ">
+      <img src="@/assets/images/Tema/wallpaperflare.com_wallpaper.jpg" style="height: 30vh">
+      <div class="imageonw">
+        Biz Kimiz ?
       </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="  about-us-w " style="display: flex; justify-content: center; font-weight: bold; font-size: 40px">
+          Lorem ipsum dolor
+        </div>
+        <div class="  about-us-w ">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare massa nec diam euismod vestibulum. Duis
+          eros
+          leo, mollis rhoncus velit quis, elementum pharetra ante. Mauris vehicula massa facilisis lorem dignissim
+          tempor
+          et
+          in purus. Integer rutrum tempor vehicula. In tristique metus sed leo finibus, in placerat lorem placerat. Sed
+          justo sem, facilisis nec sem quis, tempor fringilla neque. Morbi sed suscipit lectus. Aliquam erat volutpat.
+          Morbi
+          magna elit, consectetur maximus eleifend ac, iaculis at elit. Phasellus sit amet semper sem. Nulla facilisi.
+          Etiam
+          gravida nisl ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          Nulla tincidunt odio eu dui efficitur consectetur.
 
+          Donec faucibus varius ligula, sed laoreet lorem eleifend bibendum. Suspendisse dignissim quis nibh ac
+          pharetra.
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam et
+          hendrerit
+          ligula. Donec sit amet nisi felis. Pellentesque leo elit, blandit sit amet semper ut, consectetur eu enim.
+          Curabitur condimentum purus tincidunt sem condimentum, nec elementum risus gravida. Suspendisse potenti.
+          Aliquam
+          lectus dolor, tincidunt ut nunc et, tempus rhoncus est. Mauris imperdiet tempus urna, ac egestas nunc.
+
+          Donec vitae congue ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+          himenaeos. Aliquam nec porta tortor. Maecenas convallis bibendum dolor, a euismod diam congue vel. Vivamus ut
+          mi
+          vitae erat luctus egestas commodo a ligula. Donec orci nibh, dictum et ipsum vitae, blandit tincidunt eros.
+          Fusce
+          imperdiet non nunc non rhoncus. Proin pulvinar nec turpis et rutrum.
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="  about-us-w " style="display: flex; justify-content: center; font-weight: bold; font-size: 40px">
+          Vizyonumuz
+        </div>
+      </div>
+      <div class="kapsa" >
+        <div class="row">
+          <div class="col-lg-4" style="padding-top: 6vh ; " >
+            <img src="@/assets/truck.jpg">
+          </div>
+          <div class="col-lg-8">
+<!--            <div class="  about-us-w "-->
+<!--                 style="display: flex; justify-content: center; font-weight: bold; font-size: 40px">-->
+<!--              Lorem ipsum dolor-->
+<!--            </div>-->
+            <div class="  about-us-w " style="margin-top: 10vh;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare massa nec diam euismod vestibulum.
+              Duis
+              eros
+              leo, mollis rhoncus velit quis, elementum pharetra ante. Mauris vehicula massa facilisis lorem dignissim
+              tempor
+              et
+              in purus. Integer rutrum tempor vehicula. In tristique metus sed leo finibus, in placerat lorem placerat.
+              Sed
+              justo sem, facilisis nec sem quis, tempor fringilla neque. Morbi sed suscipit lectus. Aliquam erat
+              volutpat.
+              Morbi
+              magna elit, consectetur maximus eleifend ac, iaculis at elit. Phasellus sit amet semper sem. Nulla
+              facilisi.
+              Etiam
+              gravida nisl ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos.
+              Nulla tincidunt odio eu dui efficitur consectetur.
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
-
-
-
-
-
 
 
 <script>
@@ -61,7 +108,39 @@ export default defineComponent({
 </script>
 
 <style>
+.kapsa{
+  display: flex;
+  margin-top: 5vh;
 
+}
+.about-us-w {
+  font-size: 2em;
+  line-height: 4vh;
+  margin-top: 5vh;
+  color: black;
+ text-align: start;
+}
+
+.imageonw {
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 12vh;
+  font-family: SandrinaRegular, Sandrina;
+  font-weight: bold;
+  font-size: 5em;
+  color: #ffffff;
+}
+
+.banner {
+
+  height: 30vh;
+  width: 100vw;
+  background-color: transparent;
+
+
+}
 
 .baslik {
 
@@ -137,7 +216,8 @@ export default defineComponent({
   opacity: 100; /* Hover olduğunda açılan resmi görünür yapın */
   background-color: #f5f5f5;
 }
-.h1{
+
+.h1 {
   background: linear-gradient(to right, #e3b871, #b00101);
   padding-left: 5rem;
   padding-right: 5rem;
@@ -146,6 +226,7 @@ export default defineComponent({
   height: 35rem;
 
 }
+
 .kutu {
   display: flex;
   flex-direction: column;
