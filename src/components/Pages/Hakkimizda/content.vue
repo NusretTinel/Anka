@@ -12,34 +12,7 @@
           Lorem ipsum dolor
         </div>
         <div class="  about-us-w ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare massa nec diam euismod vestibulum. Duis
-          eros
-          leo, mollis rhoncus velit quis, elementum pharetra ante. Mauris vehicula massa facilisis lorem dignissim
-          tempor
-          et
-          in purus. Integer rutrum tempor vehicula. In tristique metus sed leo finibus, in placerat lorem placerat. Sed
-          justo sem, facilisis nec sem quis, tempor fringilla neque. Morbi sed suscipit lectus. Aliquam erat volutpat.
-          Morbi
-          magna elit, consectetur maximus eleifend ac, iaculis at elit. Phasellus sit amet semper sem. Nulla facilisi.
-          Etiam
-          gravida nisl ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-          Nulla tincidunt odio eu dui efficitur consectetur.
-
-          Donec faucibus varius ligula, sed laoreet lorem eleifend bibendum. Suspendisse dignissim quis nibh ac
-          pharetra.
-          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam et
-          hendrerit
-          ligula. Donec sit amet nisi felis. Pellentesque leo elit, blandit sit amet semper ut, consectetur eu enim.
-          Curabitur condimentum purus tincidunt sem condimentum, nec elementum risus gravida. Suspendisse potenti.
-          Aliquam
-          lectus dolor, tincidunt ut nunc et, tempus rhoncus est. Mauris imperdiet tempus urna, ac egestas nunc.
-
-          Donec vitae congue ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Aliquam nec porta tortor. Maecenas convallis bibendum dolor, a euismod diam congue vel. Vivamus ut
-          mi
-          vitae erat luctus egestas commodo a ligula. Donec orci nibh, dictum et ipsum vitae, blandit tincidunt eros.
-          Fusce
-          imperdiet non nunc non rhoncus. Proin pulvinar nec turpis et rutrum.
+          ........Yılından beri Anka Tedarik Eğitim ve Danışmanlık A.Ş. olarak Kamu ihaleleri , Doğrudan temin , Tedarik ve satın alma
         </div>
       </div>
     </div>

@@ -2,74 +2,92 @@
   <Navbar></Navbar>
   <div class="kap">
     <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
-         style="height: 100vh ;width: 100vw ;"/>
-
-
+         style="width:100% ;height:100% ;"/>
     <div class="row">
+      <div class="sıralayıcı">
+        <div class="pictureLeft">
+          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+               style="width:100% ;height:100% ;"/>
+        </div>
+        <div class=" pictureBottom">
+          Neden Mistral
+        </div>
+      </div>
+      <div class="textRight">
 
-      <div class="col-lg-2 mpbox ">
-        <div class="row içerik">
+        <div class="textMid">
+          <span> Mistral Trade </span>
 
+        </div>
+
+        <div class="textContent">
+            <span>   AnkaTedarik olarak Türkiye’nin ve dünyanın her yerinden gelen veri akışımızla tam  ihtiyacınız olan ürünü en uygun fiyat teklifleriyle, kısa süre içerisinde,Amacımız
+                   müşterilerimizi yoğun iş temposunda eforsuz bir şekilde ürünlerine ulaştırmak olup birçok şirketle birçok şirketle i ie’nin ve dünyanın her yerinden gelen veri akışımızla tamamında
+                        . </span>
 
         </div>
       </div>
-      <div class="col-lg-5 yazımp ">
 
 
-   <span class="içerik">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </span>
-      </div>
     </div>
-    <div class="row" style=" display: flex; justify-content: center;margin-top: 9vh;height: 40vh">
+    <div class="row" style=" display: flex; justify-content: center;margin-top: 150px;">
       <div class="boxlight">
-        <div class="row yazıkutu">
+        <div class=" yazıkutu">
           LOREM İPSUM DOLER SİT
         </div>
-        <div class="row resimkutu">
-          asdsd
+        <div class=" resimkutu">
+          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+               style="width:100% ;height:100% ;"/>
         </div>
       </div>
       <div class="boxlight">
-        <div class="row yazıkutu ">
+        <div class=" yazıkutu ">
           LOREM İPSUM DOLER SİT
 
         </div>
-        <div class="row resimkutu">
-
+        <div class=" resimkutu">
+          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+               style="width:100% ;height:100% ;"/>
         </div>
       </div>
       <div class="boxlight">
-        <div class="row yazıkutu ">
+        <div class=" yazıkutu ">
           LOREM İPSUM DOLER SİT
         </div>
-        <div class="row resimkutu">
-
+        <div class=" resimkutu">
+          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+               style="width:100% ;height:100% ;"/>
         </div>
       </div>
       <div class="boxlight">
-        <div class="row yazıkutu ">
+        <div class=" yazıkutu ">
           LOREM İPSUM DOLER SİT
         </div>
-        <div class="row resimkutu">
-
+        <div class=" resimkutu">
+          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+               style="width:100% ;height:100% ;"/>
         </div>
       </div>
       <div class="boxlight">
-        <div class="row yazıkutu ">
+        <div class=" yazıkutu ">
           LOREM İPSUM DOLER SİT
         </div>
-        <div class="row resimkutu">
-
+        <div class=" resimkutu">
+          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+               style="width:100% ;height:100% ;"/>
         </div>
       </div>
-      <div class="boxlight">
-        <div class="row yazıkutu ">
-          LOREM İPSUM DOLER SİT
-        </div>
-        <div class="row resimkutu">
 
-        </div>
-      </div>
+    </div>
+    <div class="row" style="height: 300px">
+
+
+
+    </div>
+    <div class="row" >
+
+
+
     </div>
   </div>
 
@@ -94,13 +112,13 @@
 </template>
 
 <script>
-
 import {defineComponent} from 'vue';
 import Navbar from "@/components/Utility/navbar.vue";
 
 export default defineComponent({
   name: 'componentPage',
-  components: {Navbar},
+  components: {Navbar
+    },
   // components: {Navbar},
   data() {
     return {
@@ -127,13 +145,13 @@ export default defineComponent({
 }
 
 .yazıkutu {
-  height: 6vh;
-padding-top: 1.5vh;
-  margin-top: 5vh;
-  margin-left: 1vw;
+  height: 80px;
+  padding-top: 15px;
+  margin-top: 50px;
+  margin-left: 10px;
   display: flex;
   justify-content: center;
-  margin-right: 1vh;
+  margin-right: 10px;
   background-color: transparent;
   color: #cb0000;
   font-size: 20px;
@@ -142,12 +160,12 @@ padding-top: 1.5vh;
 }
 
 .resimkutu {
-margin-top: 2vh;
-  padding-top: 1vh;
+  margin-top: 20px;
+  padding-top: 10px;
 
-height: 15vh;
-  margin-right: 2vw;
-  margin-left: 2vw;
+  height: 160px;
+  margin-right: 20px;
+  margin-left: 20px;
   display: flex;
   justify-content: center;
   background-color: #002942;
@@ -155,10 +173,10 @@ height: 15vh;
 
 .boxlight {
 
-  margin-right: 1vw;
+  margin-right: 10px;
   background-color: #e3e3f8;
-  height: 34vh;
-  width: 15vw;
+  height: 340px;
+  width: 300px;
 
 }
 
@@ -172,20 +190,22 @@ height: 15vh;
 
 }
 
-.içerik {
-
-
-  width: 40%;
+.icerik {
+  text-align: left;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
 }
 
 .yazımp {
-  text-align: left;
+  text-align: center;
 
-  line-height: 5vh;
-  height: 20vh;
-  margin-right: 2vw;
-  margin-left: 13vw;
-  margin-top: 4vh;
+  line-height: 40px;
+  height: 300px;
+  margin-right: 20px;
+  margin-left: 160px;
+  margin-top: 40px;
   border-radius: 20px;
 
   color: #002942;
@@ -195,7 +215,7 @@ height: 15vh;
 }
 
 .kap {
-  background: linear-gradient(to top, #dcdcdc, #0d6efd);
+//background: linear-gradient(to top, #dcdcdc, #0d6efd); background-color: white;
 }
 
 .resim {
@@ -203,16 +223,17 @@ height: 15vh;
   height: 100vh;
 }
 
+
 .mpbox {
-  width: 0vw;
-  height: 20vh;
-  margin-bottom: 8vh;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 200px;
   display: flex;
   font-family: Calibri;
   justify-content: center;
-  margin-right: 2vw;
-  margin-left: 10vw;
-  margin-top: 6vh;
+  margin-right: 30px;
+  margin-left: 180px;
+  margin-top: 60px;
   border-radius: 20px;
   background-color: black;
 }
@@ -354,4 +375,79 @@ height: 15vh;
   transform: rotateY(180deg);
 }
 
+.pictureLeft {
+  width: 270px;
+  height: 180px;
+  margin-left: 150px;
+  margin-top: 120px;
+}
+
+.textRight {
+
+  width: 800px;
+  height: 400px;
+  margin-left: 420px;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column; /* Elemanları dikeyde hizalar */
+
+
+}
+
+.row {
+  width: 100%;
+}
+
+.textMid {
+  margin-top: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-size: 30px;
+  width: 100%;
+  height: 80px;
+  color: #000000;
+  margin-bottom: 10px; /* Başlık ve içerik arasına boşluk ekler */
+}
+
+.textContent {
+
+  justify-content: flex-start; /* İçeriği soldan hizalar */
+  align-items: flex-start; /* İçeriği yukarıdan hizalar */
+  text-align: justify; /* Metni iki yana yaslar */
+  text-align-last: left; /* Son satırı sola hizalar */
+  width: 100%;
+  height: 300px;
+  line-height: 35px;
+  padding: 10px; /* İçerik için biraz boşluk ekler */
+  box-sizing: border-box; /* Padding dahil genişliği düzenler */
+  color: #090849;
+  font-weight: 600;
+  font-size: 32px
+}
+
+.sıralayıcı {
+  flex-direction: column;
+  display: flex;
+  width: 270px;
+  height: 180px;
+}
+
+.pictureBottom {
+  white-space: nowrap;
+  color:red;
+ margin-left: 200px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  text-align: left;
+
+
+}
 </style>
