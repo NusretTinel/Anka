@@ -80,13 +80,49 @@
 
     </div>
     <div class="row" style="height: 300px">
+<span class="textSliderTop"> Mistral Örnek Ürünler </span>    </div>
+    <div class="row">
 
+      <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
+        <SplideSlide>
+          <div class="row">
+            <div class="circularSlider">
 
+            </div>
+            <div class="circularSlider">
 
-    </div>
-    <div class="row" >
+            </div>
+            <div class="circularSlider">
 
+            </div>
+            <div class="circularSlider">
 
+            </div>
+            <div class="circularSlider">
+
+            </div>
+          </div>
+        </SplideSlide>
+        <SplideSlide>
+          <div class="row">
+            <div class="circularSlider">
+
+            </div>
+            <div class="circularSlider">
+
+            </div>
+            <div class="circularSlider">
+
+            </div>
+            <div class="circularSlider">
+
+            </div>
+            <div class="circularSlider">
+
+            </div>
+          </div>
+        </SplideSlide>
+      </Splide>
 
     </div>
   </div>
@@ -114,11 +150,15 @@
 <script>
 import {defineComponent} from 'vue';
 import Navbar from "@/components/Utility/navbar.vue";
+import {Splide, SplideSlide} from '@splidejs/vue-splide';
+import '@splidejs/vue-splide/css';
 
 export default defineComponent({
   name: 'componentPage',
-  components: {Navbar
-    },
+  components: {
+    Navbar, Splide,
+    SplideSlide,
+  },
   // components: {Navbar},
   data() {
     return {
@@ -140,6 +180,7 @@ export default defineComponent({
 </script>
 
 <style>
+
 .kutuyazısı {
 
 }
@@ -168,16 +209,59 @@ export default defineComponent({
   margin-left: 20px;
   display: flex;
   justify-content: center;
-  background-color: #002942;
+
 }
 
 .boxlight {
+   margin-right: 10px;
+   background-color: #e3e3f8;
+   height: 340px;
+   width: 300px;
+   position: relative;
+   transition: background-color 0.3s ease, transform 0.3s ease;
+ }
 
-  margin-right: 10px;
-  background-color: #e3e3f8;
-  height: 340px;
-  width: 300px;
+.boxlight::before,
+.boxlight::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: transparent;
+  transition: width 0.3s ease, height 0.3s ease;
+}
 
+.boxlight::before {
+  top: 0;
+  left: 0;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.boxlight::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+
+.boxlight:hover {
+  background-color: #d1d1f1;
+  transform: scale(1.02);
+}
+
+.boxlight:hover::before {
+  border-top: 3px solid darkblue;
+  border-left: 3px solid darkblue;
+  width: 100%;
+  height: 100%;
+}
+
+.boxlight:hover::after {
+  border-bottom: 3px solid darkblue;
+  border-right: 3px solid darkblue;
+  width: 100%;
+  height: 100%;
 }
 
 .yazı1 {
@@ -438,8 +522,8 @@ export default defineComponent({
 
 .pictureBottom {
   white-space: nowrap;
-  color:red;
- margin-left: 200px;
+  color: red;
+  margin-left: 200px;
   margin-top: 30px;
   font-weight: 500;
   font-size: 25px;
@@ -449,5 +533,27 @@ export default defineComponent({
   text-align: left;
 
 
+}
+
+.circularSlider {
+  width: 200px;
+  background-color: black;
+  border-radius: 100px;
+  height: 200px;
+  margin-left: 120px;
+}
+
+.textSliderTop {
+  justify-content: center; /* İçeriği soldan hizalar */
+  align-items: center;
+  font-size: 50px;
+  margin-top: 120px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+
+
+  width :90%;
+  margin-left:5%
 }
 </style>

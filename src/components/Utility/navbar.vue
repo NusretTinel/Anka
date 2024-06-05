@@ -48,16 +48,19 @@
       <div class="row">
 
         <div class="col-lg-2 light">
-          <button class="başlık" @click="clickRouteMethod( '/')"> Anasayfa</button>
+          <button class="baslık" @click="clickRouteMethod( '/')"> Anasayfa</button>
         </div>
         <div class="col-lg-2 light">
-          <button class="başlık " @click="clickRouteMethod( '/hakkimizda')"> Hakkımızda</button>
+          <button class="baslık " @click="clickRouteMethod( '/hakkimizda')"> Hakkımızda</button>
         </div>
         <div class="col-lg-2 light">
-          <button class="başlık" @click="clickRouteMethod( '/contact')" > İletişim</button>
+          <button class="baslık" @click="clickRouteMethod( '/contact')" > İletişim</button>
         </div>
         <div class="col-lg-2 light">
-          <button class="başlık" @click="clickRouteMethod( '/hizmetlerimiz')" > Hizmetlerimiz</button>
+          <button class="baslık" @click="clickRouteMethod( '/hizmetlerimiz')" > Hizmetlerimiz</button>
+        </div>
+        <div class="col-lg-2 light">
+          <button class="baslık" @click="clickRouteMethod( '/reference')"> Referanslar</button>
         </div>
       </div>
 
@@ -119,8 +122,8 @@ export default {
   stroke-width: 0px;
 }
 
-.başlık {
-  margin-top: 4vh;
+.baslık {
+  margin-top: 40px;
   margin-left: 0px;
   background-color: black;
   color: white;
@@ -135,8 +138,8 @@ export default {
 
 .light {
 
-  margin-left: 2vw;
-  margin-right: 1vw;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .at {
@@ -155,7 +158,7 @@ export default {
 
 }
 .fas.fa-envelope.navbarItem{
-  margin-top: 4vh;
+  margin-top: 40px;
   color: white;
   font-size: 20px;
 }
@@ -163,7 +166,7 @@ export default {
   margin-right: 2vw;
 }
 .fas.fa-map-marker-alt.navbarItem{
-  margin-top: 4vh;
+  margin-top: 40px;
   color: white;
   font-size: 20px;
 }
