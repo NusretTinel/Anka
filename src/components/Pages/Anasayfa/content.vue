@@ -42,7 +42,7 @@
 
             <div class="boxlightC">
               <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/orman.jpg"
+                <img alt="bilboard" src="../../../assets/images/imgCategory/orman2.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -64,7 +64,7 @@
             </div>
             <div class="boxlightC">
               <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/maden3.jpg"
+                <img alt="bilboard" src="../../../assets/images/imgCategory/maden.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -85,7 +85,7 @@ Laboratuvar Cihazları              </div>
             </div>
             <div class="boxlightC">
               <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/kaynak.jpg"
+                <img alt="bilboard" src="../../../assets/images/imgCategory/kaynak2.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -106,7 +106,7 @@ Laboratuvar Cihazları              </div>
 
             <div class="boxlightC">
               <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/hırdavat.jpg"
+                <img alt="bilboard" src="../../../assets/images/imgCategory/hırdavat2.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -128,7 +128,7 @@ Laboratuvar Cihazları              </div>
             </div>
             <div class="boxlightC">
               <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/farming1.jpg"
+                <img alt="bilboard" src="../../../assets/images/imgCategory/farming4.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -137,9 +137,10 @@ Laboratuvar Cihazları              </div>
 
 
             </div>
+
             <div class="boxlightC">
               <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/endustri4.jpg"
+                <img alt="bilboard" src="../../../assets/images/imgCategory/endustri5.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -171,7 +172,7 @@ Laboratuvar Cihazları              </div>
 
             <div class="boxlightC">
               <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/Building-Construction-Process-From-Start-To-Finish.jpg  "
+                <img alt="bilboard" src="../../../assets/images/imgCategory/yapı1.jpg  "
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -207,137 +208,137 @@ Laboratuvar Cihazları              </div>
           </div>
         </SplideSlide>
       </Splide>
-      <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
-        <SplideSlide>
-          <div class="row">
+<!--      <Splide :options="{ rewind: true }" aria-label="My Favorite Images">-->
+<!--        <SplideSlide>-->
+<!--          <div class="row">-->
 
 
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/orman.webp"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-                Orman Ekipmanları
-              </div>
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/orman.webp"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--                Orman Ekipmanları-->
+<!--              </div>-->
 
 
-            </div>
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/olcu.png"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-                Ölçü Aletleri
-              </div>
+<!--            </div>-->
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/olcu.png"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--                Ölçü Aletleri-->
+<!--              </div>-->
 
 
-            </div>
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/ambalaj.png"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-                Ambalaj
-              </div>
+<!--            </div>-->
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/ambalaj.png"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--                Ambalaj-->
+<!--              </div>-->
 
 
-            </div>
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/el-aletleri.jpg"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-                El Aletleri
-                         </div>
+<!--            </div>-->
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/el-aletleri.jpg"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--                El Aletleri-->
+<!--                         </div>-->
 
 
-            </div>
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/endüstri.png"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-                Endüstriyel Malzemeler
-              </div>
+<!--            </div>-->
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/endüstri.png"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--                Endüstriyel Malzemeler-->
+<!--              </div>-->
 
 
-            </div>
+<!--            </div>-->
 
-          </div>
-        </SplideSlide>
-        <SplideSlide>
-          <div class="row">
-
-
+<!--          </div>-->
+<!--        </SplideSlide>-->
+<!--        <SplideSlide>-->
+<!--          <div class="row">-->
 
 
 
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/Hırdavat.jpg"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-                Hırdavat Malzemeleri
-              </div>
 
 
-            </div>
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/inşaat.jpg"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-               Yapı ve İnşaat Malzemeleri
-              </div>
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/Hırdavat.jpg"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--                Hırdavat Malzemeleri-->
+<!--              </div>-->
 
 
-            </div>
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/lab.png"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-                Laboratuvar Cihazları
-
-              </div>
-
-
-            </div>
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/sarf.jpg"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-              Sarf Malzemeleri
-              </div>
+<!--            </div>-->
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/inşaat.jpg"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--               Yapı ve İnşaat Malzemeleri-->
+<!--              </div>-->
 
 
-            </div>
-            <div class="boxlightC">
-              <div class=" resimkutu">
-                <img alt="bilboard" src="../../../assets/images/imgCategoryD/yangın.jpg"
-                     style="border-radius: 80px;width:100% ;height:100% ;"/>
-              </div>
-              <div class=" yazıkutuc ">
-         Yangın Ürün VE Ekipmanları
-              </div>
+<!--            </div>-->
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/lab.png"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--                Laboratuvar Cihazları-->
+
+<!--              </div>-->
 
 
-            </div>
+<!--            </div>-->
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/sarf.jpg"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--              Sarf Malzemeleri-->
+<!--              </div>-->
 
-          </div>
-        </SplideSlide>
 
-      </Splide>
+<!--            </div>-->
+<!--            <div class="boxlightC">-->
+<!--              <div class=" resimkutu">-->
+<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/yangın.jpg"-->
+<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
+<!--              </div>-->
+<!--              <div class=" yazıkutuc ">-->
+<!--         Yangın Ürün VE Ekipmanları-->
+<!--              </div>-->
+
+
+<!--            </div>-->
+
+<!--          </div>-->
+<!--        </SplideSlide>-->
+
+<!--      </Splide>-->
 
     </div>
     <div class="row" style=" display: flex; justify-content: center;margin-top: 150px;">
@@ -572,6 +573,7 @@ export default defineComponent({
 }
 
 .boxlight {
+
    margin-right: 10px;
    background-color: #e3e3f8;
    height: 340px;
@@ -857,7 +859,7 @@ export default defineComponent({
 }
 
 .textContent {
-
+  font-family: Calibri;
   justify-content: flex-start; /* İçeriği soldan hizalar */
   align-items: flex-start; /* İçeriği yukarıdan hizalar */
   text-align: justify; /* Metni iki yana yaslar */
@@ -970,7 +972,7 @@ export default defineComponent({
 .boxlightC {
 
   margin-right: 15px;
-margin-left: 50px;
+margin-left: 60px;
   height: 360px;
  width: 300px;
   position: relative;
