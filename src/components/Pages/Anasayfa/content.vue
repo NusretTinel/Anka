@@ -6,8 +6,8 @@
     <div class="row">
       <div class="sıralayıcı">
         <div class="pictureLeft">
-          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
-               style="width:100% ;height:100% ;"/>
+          <img alt="bilboard" src="../../../assets/images/imgAnka/horse.jpg"
+               style="width:100% ;height:270px ;"/>
         </div>
         <div class=" pictureBottom">
           Neden Mistral
@@ -21,9 +21,7 @@
         </div>
 
         <div class="textContent">
-            <span>   AnkaTedarik olarak Türkiye’nin ve dünyanın her yerinden gelen veri akışımızla tam  ihtiyacınız olan ürünü en uygun fiyat teklifleriyle, kısa süre içerisinde,Amacımız
-                   müşterilerimizi yoğun iş temposunda eforsuz bir şekilde ürünlerine ulaştırmak olup birçok şirketle birçok şirketle i ie’nin ve dünyanın her yerinden gelen veri akışımızla tamamında
-                        . </span>
+            <span>  20 yıla yaklaşan satın alma deneyimimizle hem müşterilerimizin hem de tedarikçilerimizin maliyet, zaman ve iş gücünden tasarruf etmesini sağlayan, ithalat ve ihracat alanında uzman kadrosu Türkiye ve Dünya'da sınırsız ürün potansiyeline sahip olması nedeniyle tercih edilen bir firmadır </span>
 
         </div>
       </div>
@@ -41,7 +39,7 @@
 
 
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/orman2.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -52,7 +50,7 @@
 
             </div>
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/olcu.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -63,7 +61,7 @@
 
             </div>
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/maden.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -74,7 +72,7 @@
 
             </div>
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/lab.jpeg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -84,7 +82,7 @@ Laboratuvar Cihazları              </div>
 
             </div>
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/kaynak2.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -105,7 +103,7 @@ Laboratuvar Cihazları              </div>
 
 
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/hırdavat2.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -116,7 +114,7 @@ Laboratuvar Cihazları              </div>
 
             </div>
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/fire3.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -127,7 +125,7 @@ Laboratuvar Cihazları              </div>
 
             </div>
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/farming4.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -139,7 +137,7 @@ Laboratuvar Cihazları              </div>
             </div>
 
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/endustri5.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -150,7 +148,7 @@ Laboratuvar Cihazları              </div>
 
             </div>
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/el.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -171,7 +169,7 @@ Laboratuvar Cihazları              </div>
 
 
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/yapı1.jpg  "
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -182,7 +180,7 @@ Laboratuvar Cihazları              </div>
 
             </div>
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/aydınlatma.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -193,7 +191,7 @@ Laboratuvar Cihazları              </div>
 
             </div>
             <div class="boxlightC">
-              <div class=" resimkutu">
+              <div class=" resimkutuC">
                 <img alt="bilboard" src="../../../assets/images/imgCategory/ambalaj.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
@@ -344,47 +342,47 @@ Laboratuvar Cihazları              </div>
     <div class="row" style=" display: flex; justify-content: center;margin-top: 150px;">
       <div class="boxlight">
         <div class=" yazıkutu">
-          LOREM İPSUM DOLER SİT
+        Düşük Maliyet
         </div>
         <div class=" resimkutu">
-          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+          <img  alt="bilboard" src="../../../assets/images/illustrate/price-tag_2221225.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
       <div class="boxlight">
         <div class=" yazıkutu ">
-          LOREM İPSUM DOLER SİT
+          Yüksek Kalite
 
         </div>
         <div class=" resimkutu">
-          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+          <img alt="bilboard" src="../../../assets/images/illustrate/badge_7440695.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
       <div class="boxlight">
         <div class=" yazıkutu ">
-          LOREM İPSUM DOLER SİT
+         Tecrübeli Kadro
         </div>
         <div class=" resimkutu">
-          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+          <img alt="bilboard" src="../../../assets/images/illustrate/experience_2303952.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
       <div class="boxlight">
         <div class=" yazıkutu ">
-          LOREM İPSUM DOLER SİT
+         Sınırsız Ürün Çeşidi
         </div>
         <div class=" resimkutu">
-          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+          <img alt="bilboard" src="../../../assets/images/illustrate/design_1117607.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
       <div class="boxlight">
         <div class=" yazıkutu ">
-          LOREM İPSUM DOLER SİT
+       Dünya Çapında Hizmet
         </div>
         <div class=" resimkutu">
-          <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+          <img alt="bilboard" src="../../../assets/images/illustrate/worldwide_4418907.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
@@ -403,7 +401,7 @@ Laboratuvar Cihazları              </div>
 
       <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
         <SplideSlide>
-          <div class="row">
+          <div class="row ortalayici">
 
 
             <div class="squareSlider">
@@ -425,7 +423,7 @@ Laboratuvar Cihazları              </div>
           </div>
         </SplideSlide>
         <SplideSlide>
-          <div class="row">
+          <div class="row ortalayici">
 
             <div class="squareSlider">
               <img alt="bilboard" src="../../../assets/images/imgSlider/iller-bankasi-logo-2A81809318-seeklogo.com.png"
@@ -447,7 +445,7 @@ Laboratuvar Cihazları              </div>
           </div>
         </SplideSlide>
         <SplideSlide>
-          <div class="row">
+          <div class="row ortalayici">
 
             <div class="squareSlider">
               <img alt="bilboard" src="../../../assets/images/imgSlider/Türk_Kara_Kuvvetleri_amblemi.png"
@@ -468,7 +466,7 @@ Laboratuvar Cihazları              </div>
           </div>
         </SplideSlide>
         <SplideSlide>
-          <div class="row">
+          <div class="row ortalayici">
 
             <div class="squareSlider">
               <img alt="bilboard" src="../../../assets/images/imgSlider/images.jpeg"
@@ -554,34 +552,37 @@ export default defineComponent({
   justify-content: center;
   margin-right: 10px;
   background-color: transparent;
-  color: #cb0000;
-  font-size: 20px;
-  font-weight: 900
+  color: #03045e;
+  font-size: 30px;
+  font-weight: 1000;
+  font-family:Calibri
 
 }
 
 .resimkutu {
   margin-top: 20px;
   padding-top: 10px;
-
-  height: 160px;
+width:130px;
+  height: 120px;
   margin-right: 20px;
-  margin-left: 20px;
+  align-items:center;
   display: flex;
   justify-content: center;
 
-}
 
+}
 .boxlight {
 
-   margin-right: 10px;
-   background-color: #e3e3f8;
-   height: 340px;
-   width: 300px;
-   position: relative;
-   transition: background-color 0.3s ease, transform 0.3s ease;
- }
-
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-right: 10px;
+  background-color: #f3f7f8;
+  height: 340px;
+  width: 300px;
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 .boxlight::before,
 .boxlight::after {
   content: '';
@@ -607,20 +608,20 @@ export default defineComponent({
 }
 
 .boxlight:hover {
-  background-color: #d1d1f1;
+  background-color: #f5f9ff;
   transform: scale(1.02);
 }
 
 .boxlight:hover::before {
-  border-top: 3px solid darkblue;
-  border-left: 3px solid darkblue;
+  border-top: 3px solid #0096c7;
+  border-left: 3px solid #0096c7;
   width: 100%;
   height: 100%;
 }
 
 .boxlight:hover::after {
-  border-bottom: 3px solid darkblue;
-  border-right: 3px solid darkblue;
+  border-bottom: 3px solid #0096c7;
+  border-right: 3px solid #0096c7;
   width: 100%;
   height: 100%;
 }
@@ -823,7 +824,7 @@ export default defineComponent({
 .pictureLeft {
   width: 270px;
   height: 180px;
-  margin-left: 150px;
+  margin-left: 250px;
   margin-top: 120px;
 }
 
@@ -831,7 +832,7 @@ export default defineComponent({
 
   width: 800px;
   height: 400px;
-  margin-left: 420px;
+  margin-left: 520px;
   margin-top: 7px;
   display: flex;
   flex-direction: column; /* Elemanları dikeyde hizalar */
@@ -844,7 +845,8 @@ export default defineComponent({
 }
 
 .textMid {
-  margin-top: 20px;
+
+  margin-top: 100px;
   font-weight: 500;
   display: flex;
   justify-content: center;
@@ -870,7 +872,7 @@ export default defineComponent({
   padding: 10px; /* İçerik için biraz boşluk ekler */
   box-sizing: border-box; /* Padding dahil genişliği düzenler */
   color: #090849;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 32px
 }
 
@@ -883,8 +885,8 @@ export default defineComponent({
 
 .pictureBottom {
   white-space: nowrap;
-  color: red;
-  margin-left: 200px;
+  color: #090849;
+  margin-left: 315px;
   margin-top: 30px;
   font-weight: 500;
   font-size: 25px;
@@ -892,6 +894,7 @@ export default defineComponent({
   justify-content: start;
   align-items: flex-start;
   text-align: left;
+  font-family:"Calibri ";
 
 
 }
@@ -905,11 +908,12 @@ export default defineComponent({
 }
 
 .squareSlider {
-  width: 250px;
+  width: 210px;
   background-color: transparent;
+margin-left:80px;
+  margin-right:80px;
+  height: 155px;
 
-  height: 175px;
-  margin-left: 170px;
 }
 
 .textSliderTop {
@@ -944,15 +948,16 @@ export default defineComponent({
   font-size: 37px;
   color: black;
   margin: 0 20px; /* Bu, her iki tarafa eşit boşluk ekler */
-  color: #013ece;
+  color: #0096c7;
   font-weight: bold;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  font-family:Calibri;
 }
 
 .spanSliderTopline {
   width: 150px;
   height: 3px;
-  background-color: #013ece;
+  background-color: #0096c7;
   color: red;
   font-weight: bold;
   margin-bottom: 30px
@@ -992,5 +997,16 @@ font-family: Calibri;
   font-size: 20px;
   font-weight: 900
 
+}
+
+.resimkutuC {
+  margin-top: 100px;
+  padding-top: 10px;
+
+  height: 160px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
 }
 </style>

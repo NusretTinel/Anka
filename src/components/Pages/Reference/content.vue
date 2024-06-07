@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style>
-.yazıkutu{
+.yazıkutuS{
 
   height: 80px;
   padding-top: 15px;
