@@ -1,7 +1,7 @@
 <template>
   <Navbar></Navbar>
   <div class="kap">
-    <img alt="bilboard" src="../../../assets/images/imgAnka/Artboard_2.png"
+    <img alt="bilboard" src="../../../assets/images/imgAnka/ankaMain.png"
          style="width:100% ;height:100% ;"/>
     <div class="row">
       <div class="sıralayıcı">

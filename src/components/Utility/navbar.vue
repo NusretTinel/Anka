@@ -47,10 +47,10 @@
 
       <div class="row">
 
-        <div class="col-lg-2 light">
+        <div class="col-lg-3 light">
           <button class="baslık" @click="clickRouteMethod( '/')"> Anasayfa</button>
         </div>
-        <div class="col-lg-2 light">
+        <div class="col-lg-3 light">
           <button class="baslık " @click="clickRouteMethod( '/hakkimizda')"> Hakkımızda</button>
         </div>
         <div class="col-lg-2 light">
@@ -59,9 +59,7 @@
         <div class="col-lg-2 light">
           <button class="baslık" @click="clickRouteMethod( '/hizmetlerimiz')" > Hizmetlerimiz</button>
         </div>
-        <div class="col-lg-2 light">
-          <button class="baslık" @click="clickRouteMethod( '/reference')"> Referanslar</button>
-        </div>
+
       </div>
 
     </div>

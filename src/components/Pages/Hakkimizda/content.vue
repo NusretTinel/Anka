@@ -9,11 +9,17 @@
     <div class="container">
       <div class="row">
         <div class="  about-us-w " style="display: flex; justify-content: center; font-weight: bold; font-size: 40px">
-          Lorem ipsum dolor
+          Biz kimiz
         </div>
         <div class="  about-us-w ">
-          ........Yılından beri Anka Tedarik Eğitim ve Danışmanlık A.Ş. olarak Kamu ihaleleri , Doğrudan temin , Tedarik ve satın alma
+          Anka Tedarik Eğitim ve Danışmanlık A.Ş. olarak, kuruluşumuzdan bu yana, kamu ihaleleri, doğrudan temin, tedarik ve satın alma, ithalat ve ihracat gibi çeşitli alanlarda sunduğumuz hizmetlerle Türkiye’deki saygın konumumuzu sağlamlaştırmış bulunmaktayız. Yenilikçi yaklaşımlarımız ve sürekli gelişim anlayışımız sayesinde, müşterilerimizin ihtiyaçlarına yönelik özelleştirilmiş çözümler üretmekteyiz.
+
+          Mistral GMBH kimliği altında, Avrupa pazarına adım atmış bulunuyoruz. Bu yeni dönemde, satın alma süreçlerindeki derin deneyimimizi ve alanında uzman kadromuzu ön plana çıkararak, yeni teknolojilerle harmanladığımız çözümlerimizle Almanya ve Avrupa ülkelerinde de fark yaratmayı hedefliyoruz. Sürdürülebilir başarılar ve karşılıklı güven temelinde ilerleyerek, uluslararası arenada da adımızdan söz ettirecek projelere imza atmayı amaçlıyoruz.Ayrıca, eğitim ve danışmanlık hizmetlerimizle, müşterilerimizin ve iş ortaklarımızın sektördeki gelişmelerden haberdar olmalarını sağlamakta ve onların kapasitelerini artırmalarına katkıda bulunmaktayız.Mistral GMBH olarak, uluslararası ticaret ve iş geliştirme alanlarında, yenilikçi ve sürdürülebilir stratejilerimizle, sektördeki varlığımızı güçlendirmeye ve genişletmeye devam edeceğiz. İş birliklerimizi ve ağımızı genişleterek, global pazarda rekabet avantajı elde etmeyi ve müşterilerimize daha iyi hizmet sunmayı sürdüreceğiz.
         </div>
+      </div>
+      <div class="row  " style="margin-top:40px">
+        <img src="@/assets/images/imgAnka/whiteAnkaS.png">
+
       </div>
     </div>
     <div class="container">
@@ -22,39 +28,31 @@
           Vizyonumuz
         </div>
       </div>
-      <div class="kapsa" >
+      <div class="kapsa">
         <div class="row">
-          <div class="col-lg-4" style="padding-top: 6vh ; " >
-            <img src="@/assets/truck.jpg">
-          </div>
-          <div class="col-lg-8">
-<!--            <div class="  about-us-w "-->
-<!--                 style="display: flex; justify-content: center; font-weight: bold; font-size: 40px">-->
-<!--              Lorem ipsum dolor-->
-<!--            </div>-->
-            <div class="  about-us-w " style="margin-top: 10vh;">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare massa nec diam euismod vestibulum.
-              Duis
-              eros
-              leo, mollis rhoncus velit quis, elementum pharetra ante. Mauris vehicula massa facilisis lorem dignissim
-              tempor
-              et
-              in purus. Integer rutrum tempor vehicula. In tristique metus sed leo finibus, in placerat lorem placerat.
-              Sed
-              justo sem, facilisis nec sem quis, tempor fringilla neque. Morbi sed suscipit lectus. Aliquam erat
-              volutpat.
-              Morbi
-              magna elit, consectetur maximus eleifend ac, iaculis at elit. Phasellus sit amet semper sem. Nulla
-              facilisi.
-              Etiam
-              gravida nisl ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-              himenaeos.
-              Nulla tincidunt odio eu dui efficitur consectetur.
+
+          <div class="col-lg-12">
+            <!--            <div class="  about-us-w "-->
+            <!--                 style="display: flex; justify-content: center; font-weight: bold; font-size: 40px">-->
+            <!--              Lorem ipsum dolor-->
+            <!--            </div>-->
+            <div class="  about-us-w " style="margin-top: 10px;">
+
+
+              Firmamız, küresel pazarda öncü bir rol üstlenmeyi hedefleyen, sürdürülebilir büyüme ve mükemmellik yolunda ilerleyen bir tedarik zinciri şirketidir. Her bir çalışanımız, ortak bir vizyon etrafında kenetlenmiş olup, paydaşlarımızın beklentilerini aşan hizmetler sunmayı amaçlamaktadır. Bu doğrultuda, alanında uzman insan kaynağı yetiştirme ve yenilikçi yaklaşımlarla kendi teknolojilerimizi geliştirme konusunda sürekli kendimizi yenilemekteyiz.
+
+              Stratejik ortaklıklar ve iş birlikleri kurarak, sektördeki yenilikleri takip eden ve uygulayan bir yapıya sahibiz. Kalite yönetimi ve sürekli iyileştirme prensipleriyle donatılmış, etik değerlere bağlı bir iş anlayışıyla hareket ediyoruz. Küresel rekabet koşullarında, teknolojik gelişmeleri yakından izleyerek, verimliliği artıran ve maliyetleri optimize eden çözümler üretmekteyiz.
+
+              Müşteri odaklılık, bizim için sadece bir ilke değil, aynı zamanda sürdürülebilir başarının anahtarıdır. Bu nedenle, müşteri memnuniyetini en üst düzeyde tutmak için esnek ve hızlı çözümler sunuyoruz.Uluslararası standartlarda hizmet veren şirketimiz, kalite ve güvenin simgesi olarak sektördeki yerini sağlamlaştırmayı hedeflemektedir.
 
 
             </div>
           </div>
         </div>
+      </div>
+      <div class="row  " style="margin-top:40px">
+        <img src="@/assets/images/imgAnka/blackmistral.png">
+
       </div>
     </div>
   </div>
@@ -81,17 +79,19 @@ export default defineComponent({
 </script>
 
 <style>
-.kapsa{
+.kapsa {
   display: flex;
   margin-top: 5vh;
 
 }
+
 .about-us-w {
-  font-size: 2em;
-  line-height: 4vh;
-  margin-top: 5vh;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 50px;
   color: black;
- text-align: start;
+  text-align: start;
+  font-weight: 400
 }
 
 .imageonw {
@@ -99,10 +99,10 @@ export default defineComponent({
   display: flex;
   justify-content: center;
   position: absolute;
-  margin-top: 12vh;
+  margin-top: 120px;
   font-family: SandrinaRegular, Sandrina;
   font-weight: bold;
-  font-size: 5em;
+  font-size: 80px;
   color: #ffffff;
 }
 

@@ -1,42 +1,68 @@
 <template>
-  <div style="margin-top: 5vh">
-    <div class="row ">
-      <span class="İletisimBaslık"> İLETİŞİM</span>
+  <div class="İletisimBaslık">
+<h1 style="margin-top:20px">İletişim</h1>
+  </div>
+  <div class="row">
+    <div class="sıralayıcı sıraLong " >
+      <div class="textI">
+    <span> E-posta: info@ankatedarik.com <br>Telefon :  0312 312 31 12 <br> Dahili No : 0312 312 13 13 <br> Adres: Turgut özal mah. </span>
+      </div>
+
     </div>
-
-    <div class="row">
-      <div class="iletisimIcerik">
-        <div class="row" style="color: black">
-
-          <span class="kutu1" style="text-align: center"> E-Posta</span>
-
-        </div>
-      </div>
-      <div class="iletisimIcerik">
-        <div class="row" style="color: black">
-
-          <span class="kutu1" style="text-align: center"> Sosyal Medya</span>
-
-        </div>
-      </div>
-      <div class="iletisimIcerik">
-        <div class="row" style="color: black">
-
-          <span class="kutu1" style="text-align: center"> Telefon</span>
-
-        </div>
-      </div>
-    </div>
+<!--    <div class="textRight">-->
+<!--    sfvdddddddddddddd-->
+<!--    </div>-->
 
 
   </div>
+  <h1> Adres</h1>
+  <div class="ortalayici">
+    <GoogleMap
+        :center="center"
+        :zoom="15"
+        api-key="AIzaSyBeSGEq66rhD952IMWDFO2E4sXx7-Uromg"
+        style="width: 100%; height: 500px"
+
+    >
+      <Marker :options="{ position: center }"/>
+    </GoogleMap>
+  </div>
+
+
 </template>
+
 <script>
-export default {
-  name: 'componentPage'
-}
+import {defineComponent, ref} from 'vue'
+import {GoogleMap, Marker} from 'vue3-google-map'
+
+export default defineComponent({
+  name: 'ComponentPage',
+  components: {
+    GoogleMap,
+    Marker
+  },
+  setup() {
+    const center = ref({lat: 51.208666, lng: 6.821895})
+
+    return {
+      center
+    }
+  }
+})
 </script>
+
 <style>
+.sıraLong{
+  width:500px;
+}
+.textI{
+  text-align:left;
+  color: black  ;
+ font-size: 25px;
+line-height:30px;
+  margin-left: 100px;
+  font-weight: bold;
+}
 .card {
   width: 20vw;
   height: 254px;
@@ -44,6 +70,7 @@ export default {
   background: lightgrey;
   box-shadow: #046fb7 0px 30px 50px -12px inset, #0220af 0px 18px 26px -18px inset;
 }
+
 .İletisimBaslık {
   font-weight: bold;
   font-size: 30px;
@@ -51,7 +78,6 @@ export default {
   display: flex;
   justify-content: center; /* Yatayda ortalar */
   align-items: center;
-  height: 5vh;
 }
 
 .kutu1 {
@@ -63,15 +89,29 @@ export default {
   font-size: 30px;
 }
 
-.iletisimIcerik {
-  margin-top: 5vh;
-  margin-left: 3vw;
-  height: 30vh;
-  width: 30vw;
-  background: linear-gradient(to top, #c1c1c1, #ffffff);
+
+
+.iletisim-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.iletisim-item {
+  padding: 10px;
+  background-color: black;
+  height: 400px;
+  margin: 10px 0;
   font-family: SandrinaRegular, Sandrina;
   display: flex;
-  box-shadow: #046fb7 0px 30px 50px -12px inset, #0220af 0px 18px 26px -18px inset;
-//justify-content: center; /* Yatayda ortalar */ //align-items: center;  /* Yatayda ortalar */ border-radius: 10px; border-color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
 }
+
+//justify-content: center; /* Yatayda ortalar */ //align-items: center;  /* Yatayda ortalar */ border-radius: 10px; border-color: black;
+
 </style>
