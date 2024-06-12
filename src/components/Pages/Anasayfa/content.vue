@@ -771,11 +771,7 @@ width:130px;
   text-align: justify;
 }
 
-.card {
-  width: 300px;
-  height: 200px;
-  perspective: 1000px;
-}
+
 
 .card-inner {
   width: 100%;
