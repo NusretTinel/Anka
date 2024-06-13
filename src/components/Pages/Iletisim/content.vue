@@ -9,6 +9,7 @@
     <div class="textContentI1">
       <span> E-posta: info@ankatedarik.com <br>Telefon :  0312 312 31 12 <br> Dahili No : 0312 312 13 13 <br> Adres: Turgut özal mah. </span>
     </div>
+
     <div class="textContentI2">
       <div class="card  " style="margin-bottom: 150px">
         <span class="title">Bizimle İletişime Geç</span>

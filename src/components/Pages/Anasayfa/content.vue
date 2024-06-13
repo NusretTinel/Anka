@@ -1,22 +1,22 @@
 <template>
   <Navbar></Navbar>
   <div class="kap">
-    <img alt="bilboard" src="../../../assets/images/imgAnka/ankaMain.png"
+    <img alt="bilboard" src="@/assets/images/imgAnka/ankaMain.png"
          style="width:100% ;height:100% ;"/>
     <div class="row">
       <div class="sıralayıcı">
         <div class="pictureLeft">
-          <img alt="bilboard" src="../../../assets/images/imgAnka/horse.jpg"
+          <img alt="bilboard" src="@/assets/images/imgAnka/horse.jpg"
                style="width:100% ;height:270px ;"/>
         </div>
         <div class=" pictureBottom">
-          Neden Mistral
+          Neden Anka
         </div>
       </div>
       <div class="textRight">
 
         <div class="textMid">
-          <span> Mistral Trade </span>
+          <span> Anka Tedarik </span>
 
         </div>
 
@@ -40,7 +40,7 @@
 
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/orman2.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/orman2.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -51,7 +51,7 @@
             </div>
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/olcu.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/olcu.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -62,7 +62,7 @@
             </div>
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/maden.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/maden.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -73,7 +73,7 @@
             </div>
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/lab.jpeg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/lab.jpeg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -83,7 +83,7 @@ Laboratuvar Cihazları              </div>
             </div>
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/kaynak2.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/kaynak2.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -104,7 +104,7 @@ Laboratuvar Cihazları              </div>
 
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/hırdavat2.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/hırdavattwo.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -115,7 +115,7 @@ Laboratuvar Cihazları              </div>
             </div>
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/fire3.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/fire3.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -126,7 +126,7 @@ Laboratuvar Cihazları              </div>
             </div>
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/farming4.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/farming4.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -138,7 +138,7 @@ Laboratuvar Cihazları              </div>
 
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/endustri5.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/endustri5.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -149,7 +149,7 @@ Laboratuvar Cihazları              </div>
             </div>
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/el.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/el.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -170,7 +170,7 @@ Laboratuvar Cihazları              </div>
 
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/yapı1.jpg  "
+                <img alt="bilboard" src="@/assets/images/imgCategory/yapıı.jpg  "
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -181,7 +181,7 @@ Laboratuvar Cihazları              </div>
             </div>
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/aydınlatma.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/aydnlatma.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -192,7 +192,7 @@ Laboratuvar Cihazları              </div>
             </div>
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="../../../assets/images/imgCategory/ambalaj.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/ambalaj.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -345,7 +345,7 @@ Laboratuvar Cihazları              </div>
         Düşük Maliyet
         </div>
         <div class=" resimkutu">
-          <img  alt="bilboard" src="../../../assets/images/illustrate/price-tag_2221225.png"
+          <img  alt="bilboard" src="@/assets/images/illustrate/price-tag_2221225.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
@@ -355,7 +355,7 @@ Laboratuvar Cihazları              </div>
 
         </div>
         <div class=" resimkutu">
-          <img alt="bilboard" src="../../../assets/images/illustrate/badge_7440695.png"
+          <img alt="bilboard" src="@/assets/images/illustrate/badge_7440695.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
@@ -364,7 +364,7 @@ Laboratuvar Cihazları              </div>
          Tecrübeli Kadro
         </div>
         <div class=" resimkutu">
-          <img alt="bilboard" src="../../../assets/images/illustrate/experience_2303952.png"
+          <img alt="bilboard" src="@/assets/images/illustrate/experience_2303952.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
@@ -373,7 +373,7 @@ Laboratuvar Cihazları              </div>
          Sınırsız Ürün Çeşidi
         </div>
         <div class=" resimkutu">
-          <img alt="bilboard" src="../../../assets/images/illustrate/design_1117607.png"
+          <img alt="bilboard" src="@/assets/images/illustrate/design_1117607.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
@@ -382,7 +382,7 @@ Laboratuvar Cihazları              </div>
        Dünya Çapında Hizmet
         </div>
         <div class=" resimkutu">
-          <img alt="bilboard" src="../../../assets/images/illustrate/worldwide_4418907.png"
+          <img alt="bilboard" src="@/assets/images/illustrate/worldwide_4418907.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
@@ -417,7 +417,7 @@ Laboratuvar Cihazları              </div>
                    style="width:100% ;height:100% ;"/>
             </div>
             <div class="squareSlider">
-              <img alt="bilboard" src="../../../assets/images/imgSlider/Gençlik_ve_Spor_Bakanlığı.svg.png"
+              <img alt="bilboard" src="../../../assets/images/imgSlider/GEN.png"
                    style="width:100% ;height:100% ;"/>
             </div>
           </div>
@@ -426,20 +426,20 @@ Laboratuvar Cihazları              </div>
           <div class="row ortalayici">
 
             <div class="squareSlider">
-              <img alt="bilboard" src="../../../assets/images/imgSlider/iller-bankasi-logo-2A81809318-seeklogo.com.png"
+              <img alt="bilboard" src="../../../assets/images/imgSlider/iller.png"
                    style="width:100% ;height:100% ;"/>
             </div>
             <div class="squareSlider">
               <img alt="bilboard"
-                   src="../../../assets/images/imgSlider/Mavi%20Fon%20Üzerinde%20Turuncu%20Yazılı%20Dairesel%20Logo.png"
+                   src="../../../assets/images/imgSlider/mavi.png"
                    style="width:100% ;height:100% ;"/>
             </div>
             <div class="squareSlider">
-              <img alt="bilboard" src="../../../assets/images/imgSlider/Orman_Genel_Müdürlüğü_logo.png"
+              <img alt="bilboard" src="../../../assets/images/imgSlider/OrmanGenel.png"
                    style="width:100% ;height:100% ;"/>
             </div>
             <div class="squareSlider">
-              <img alt="bilboard" src="../../../assets/images/imgSlider/Türk_Hava_Kuvvetleri_arması.png"
+              <img alt="bilboard" src="../../../assets/images/imgSlider/turkhava.png"
                    style="width:100% ;height:100% ;"/>
             </div>
           </div>
@@ -448,7 +448,7 @@ Laboratuvar Cihazları              </div>
           <div class="row ortalayici">
 
             <div class="squareSlider">
-              <img alt="bilboard" src="../../../assets/images/imgSlider/Türk_Kara_Kuvvetleri_amblemi.png"
+              <img alt="bilboard" src="../../../assets/images/imgSlider/kara.png"
                    style="width:100% ;height:100% ;"/>
             </div>
             <div class="squareSlider">
