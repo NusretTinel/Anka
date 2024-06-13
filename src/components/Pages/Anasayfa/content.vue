@@ -3,17 +3,20 @@
   <div class="kap">
     <img alt="bilboard" src="@/assets/images/imgAnka/ankaMain.png"
          style="width:100% ;height:100% ;"/>
-    <div class="row">
-      <div class="sıralayıcı">
-        <div class="pictureLeft">
+    <div class="row ortalayici">
+
+
+<div class="dikeyleyici">
           <img alt="bilboard" src="@/assets/images/imgAnka/horse.jpg"
-               style="width:100% ;height:270px ;"/>
-        </div>
+               style="width:100% ; "/>
+
         <div class=" pictureBottom">
           Neden Anka
         </div>
-      </div>
-      <div class="textRight">
+
+</div>
+
+      <div class="textRight " style="margin-left:130px;margin-right:130px">
 
         <div class="textMid">
           <span> Anka Tedarik </span>
@@ -28,14 +31,12 @@
 
 
     </div>
-    <div class="row" style="margin-top:40px">
 
-
-    </div>
-    <div class="row">
+    <!--    optimize diğer ekranlar için.-->
+    <div class="row ortalayici" style="margin-top:80px">
       <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
         <SplideSlide>
-          <div class="row">
+          <div class="row ortalayici" style="margin-top:50px">
 
 
             <div class="boxlightC">
@@ -96,7 +97,7 @@ Laboratuvar Cihazları              </div>
           </div>
         </SplideSlide>
         <SplideSlide>
-          <div class="row">
+          <div class="row ortalayici" style="margin-top:50px" >
 
 
 
@@ -162,7 +163,7 @@ Laboratuvar Cihazları              </div>
           </div>
         </SplideSlide>
         <SplideSlide>
-          <div class="row">
+          <div class="row ortalayici" style="margin-top:50px">
 
 
 
@@ -206,140 +207,14 @@ Laboratuvar Cihazları              </div>
           </div>
         </SplideSlide>
       </Splide>
-<!--      <Splide :options="{ rewind: true }" aria-label="My Favorite Images">-->
-<!--        <SplideSlide>-->
-<!--          <div class="row">-->
-
-
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/orman.webp"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--                Orman Ekipmanları-->
-<!--              </div>-->
-
-
-<!--            </div>-->
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/olcu.png"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--                Ölçü Aletleri-->
-<!--              </div>-->
-
-
-<!--            </div>-->
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/ambalaj.png"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--                Ambalaj-->
-<!--              </div>-->
-
-
-<!--            </div>-->
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/el-aletleri.jpg"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--                El Aletleri-->
-<!--                         </div>-->
-
-
-<!--            </div>-->
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/endüstri.png"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--                Endüstriyel Malzemeler-->
-<!--              </div>-->
-
-
-<!--            </div>-->
-
-<!--          </div>-->
-<!--        </SplideSlide>-->
-<!--        <SplideSlide>-->
-<!--          <div class="row">-->
 
 
 
 
-
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/Hırdavat.jpg"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--                Hırdavat Malzemeleri-->
-<!--              </div>-->
-
-
-<!--            </div>-->
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/inşaat.jpg"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--               Yapı ve İnşaat Malzemeleri-->
-<!--              </div>-->
-
-
-<!--            </div>-->
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/lab.png"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--                Laboratuvar Cihazları-->
-
-<!--              </div>-->
-
-
-<!--            </div>-->
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/sarf.jpg"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--              Sarf Malzemeleri-->
-<!--              </div>-->
-
-
-<!--            </div>-->
-<!--            <div class="boxlightC">-->
-<!--              <div class=" resimkutu">-->
-<!--                <img alt="bilboard" src="../../../assets/images/imgCategoryD/yangın.jpg"-->
-<!--                     style="border-radius: 80px;width:100% ;height:100% ;"/>-->
-<!--              </div>-->
-<!--              <div class=" yazıkutuc ">-->
-<!--         Yangın Ürün VE Ekipmanları-->
-<!--              </div>-->
-
-
-<!--            </div>-->
-
-<!--          </div>-->
-<!--        </SplideSlide>-->
-
-<!--      </Splide>-->
 
     </div>
-    <div class="row" style=" display: flex; justify-content: center;margin-top: 150px;">
+    <!--    optimize diğer ekranlar için.-->
+    <div class="row ortalayici" style="margin-top:80px">
       <div class="boxlight">
         <div class=" yazıkutu">
         Düşük Maliyet
@@ -388,6 +263,7 @@ Laboratuvar Cihazları              </div>
       </div>
 
     </div>
+<!--    optimize diğer ekranlar için.-->
     <div class="row" style="height: 100px">
     </div>
     <div class="row">
@@ -397,6 +273,7 @@ Laboratuvar Cihazları              </div>
         <span class="spanSliderTopline"></span>
       </div>
     </div>
+<!--     optimize diğer ekranlar için.-->
     <div class="row" style="margin-top:40px">
 
       <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
@@ -486,22 +363,6 @@ Laboratuvar Cihazları              </div>
   </div>
 
 
-  <!--  <div class="row" style="">-->
-  <!--    <div class="image-overlay" style="height: 30rem">-->
-  <!--      <img alt="Arka Plan Resmi" class="background-image" src="@/assets/images/imgAnka/lastlogo.png">-->
-
-  <!--      <div :class="{ 'overlay-visible': hovered }" class="overlay">-->
-
-  <!--        <h1 class="h1">-->
-  <!--          AnkaTedarik olarak Türkiye’nin ve dünyanın her yerinden gelen veri akışımızla tam-->
-  <!--          ihtiyacınız olan ürünü en uygun fiyat teklifleriyle, kısa süre içerisinde, elinize ulaştırıyoruz. Amacımız-->
-  <!--          müşterilerimizi yoğun iş temposunda eforsuz bir şekilde ürünlerine ulaştırmak olup birçok şirketle iş-->
-  <!--          birliği yaparak sınırsız kategoride her türlü ürünü sizlere tedarik etmektir.-->
-  <!--        </h1>-->
-  <!--      </div>-->
-  <!--    </div>-->
-  <!--  </div>-->
-
 
 </template>
 
@@ -572,7 +433,7 @@ width:130px;
 
 }
 .boxlight {
-
+margin-top:10px;
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -828,10 +689,10 @@ width:130px;
 
   width: 800px;
   height: 400px;
-  margin-left: 520px;
+
   margin-top: 7px;
   display: flex;
-  flex-direction: column; /* Elemanları dikeyde hizalar */
+  flex-direction: column;
 
 
 }
@@ -882,14 +743,15 @@ width:130px;
 .pictureBottom {
   white-space: nowrap;
   color: #090849;
-  margin-left: 315px;
-  margin-top: 30px;
+
+
+
   font-weight: 500;
   font-size: 25px;
-  display: flex;
-  justify-content: start;
-  align-items: flex-start;
-  text-align: left;
+
+
+
+
   font-family:"Calibri ";
 
 
@@ -904,6 +766,7 @@ width:130px;
 }
 
 .squareSlider {
+  margin-top:20px;
   width: 210px;
   background-color: transparent;
 margin-left:80px;
@@ -972,11 +835,10 @@ margin-left:80px;
 
 .boxlightC {
 
-  margin-right: 15px;
-margin-left: 60px;
+ margin-top: -120px;
   height: 360px;
  width: 300px;
-  position: relative;
+
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -1004,5 +866,12 @@ font-family: Calibri;
   margin-left: 20px;
   display: flex;
   justify-content: center;
+}
+
+.dikeyleyici {
+  flex-direction: column;
+  display: flex;
+  width: 270px;
+  height: 180px;
 }
 </style>
