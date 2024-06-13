@@ -148,7 +148,7 @@ export default {
   margin-left: 1vw;
 }
 .fas.fa-phone.navbarItem{
-  margin-top: 4vh;
+  margin-top: 40px;
   color: white;
   font-size: 20px;
 
@@ -161,7 +161,8 @@ export default {
   font-size: 20px;
 }
 .navbarItem{
-  margin-right: 2vw;
+  margin-right: 20px;
+  margin-left:10px
 }
 .fas.fa-map-marker-alt.navbarItem{
   margin-top: 40px;
