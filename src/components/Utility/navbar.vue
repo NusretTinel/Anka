@@ -1,5 +1,5 @@
 <template>
-  <nav class="openClose" style="z-index:999" role="navigation">
+  <nav class="openClose" style="margin-bottom:-40px"  role="navigation">
     <div id="menuToggle">
       <!--
       A fake / hidden checkbox is used as click reciever,
@@ -22,16 +22,16 @@
       but hey, it's pure CSS magic.
       -->
       <ul id="menu">
-        <a href="/">
+        <a href="http://ankatedarik.com.tr/">
           <li>Anasayfa</li>
         </a>
-        <a href="/hakkimizda">
+        <a href="http://ankatedarik.com.tr/hakkimizda">
           <li>Hakkımızda</li>
         </a>
-        <a href="/contact">
+        <a href="http://ankatedarik.com.tr/contact">
           <li>İletişim</li>
         </a>
-        <a href="/hizmetlerimiz">
+        <a href="http://ankatedarik.com.tr/hizmetlerimiz">
           <li>Hizmetlerimiz</li>
         </a>
 
@@ -39,7 +39,7 @@
     </div>
   </nav>
   <div class="navv">
-  <div class="row ortalayici " style="background-color: BLACK ; height: 40px; ; width: 100%">
+  <div class="row ortalayici " style="background-color: BLACK ; height: 80px; ; width: 100%">
     <div class="navItem">
       <svg height="70" viewBox="0 0 288.93 154.35" width="150" xmlns="http://www.w3.org/2000/svg">
         <defs>

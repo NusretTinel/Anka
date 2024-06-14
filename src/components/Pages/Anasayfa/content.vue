@@ -17,7 +17,7 @@
 
 </div>
 
-      <div class="textRight " style="margin-left:130px;margin-right:130px">
+      <div class="textRight ">
 
         <div class="textMid">
           <span> Anka Tedarik </span>
@@ -530,7 +530,9 @@ margin-top:10px;
   width: 100vw;
   height: 100vh;
 }
+@media (max-width: 1191px) {
 
+}
 
 .mpbox {
   width: 200px;
@@ -686,17 +688,6 @@ margin-top:10px;
   margin-top: 120px;
 }
 
-.textRight {
-
-  width: 800px;
-  height: 400px;
-
-  margin-top: 7px;
-  display: flex;
-  flex-direction: column;
-
-
-}
 
 .row {
   width: 100%;
