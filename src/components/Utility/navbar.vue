@@ -39,7 +39,7 @@
     </div>
   </nav>
   <div class="navv">
-  <div class="row ortalayici " style="background-color: BLACK ; height: 80px; ; width: 100%">
+  <div class="row ortalayici " style="background-color: BLACK ; height: 40px; ; width: 100%">
     <div class="navItem">
       <svg height="70" viewBox="0 0 288.93 154.35" width="150" xmlns="http://www.w3.org/2000/svg">
         <defs>
