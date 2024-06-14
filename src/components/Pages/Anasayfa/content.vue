@@ -1,5 +1,6 @@
 <template>
   <Navbar></Navbar>
+
   <div class="kap">
     <img alt="bilboard" src="@/assets/images/imgAnka/ankaMain.png"
          style="width:100% ;height:100% ;"/>
@@ -33,7 +34,7 @@
     </div>
 
     <!--    optimize diğer ekranlar için.-->
-    <div class="row ortalayici" style="margin-top:80px">
+    <div class="row ortalayici" style="margin-top:150px">
       <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
         <SplideSlide>
           <div class="row ortalayici" style="margin-top:50px">
@@ -105,7 +106,7 @@ Laboratuvar Cihazları              </div>
 
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="@/assets/images/imgCategory/hırdavattwo.jpg"
+                <img alt="bilboard" src="@/assets/images/imgCategory/hirdavatmal.jpg"
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
@@ -171,7 +172,7 @@ Laboratuvar Cihazları              </div>
 
             <div class="boxlightC">
               <div class=" resimkutuC">
-                <img alt="bilboard" src="@/assets/images/imgCategory/yapıı.jpg  "
+                <img alt="bilboard" src="@/assets/images/imgCategory/yapis.jpg  "
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">

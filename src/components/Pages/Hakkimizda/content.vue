@@ -95,7 +95,7 @@ export default defineComponent({
 }
 
 .imageonw {
-  z-index: 999;
+
   display: flex;
   justify-content: center;
   position: absolute;

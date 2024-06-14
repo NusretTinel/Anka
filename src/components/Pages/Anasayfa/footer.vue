@@ -31,19 +31,19 @@
              Hizmetlerimiz
             </h6>
             <p>
-              <a class="text-reset" style="white-space: nowrap" href="#!">Mal Alım</a>
-            </p>
-            <p>
-              <a class="text-reset" style="white-space: nowrap" href="#!">Mal satışı</a>
-            </p>
-            <p>
-              <a class="text-reset" style="white-space: nowrap" href="#!">İhaleler</a>
+              <a class="text-reset" style="white-space: nowrap" href="#!">Tedarik</a>
             </p>
             <p>
               <a class="text-reset" style="white-space: nowrap" href="#!">İthalat</a>
             </p>
+            <p>
+              <a class="text-reset" style="white-space: nowrap" href="#!">İhracat</a>
+            </p>
+            <p>
+              <a class="text-reset" style="white-space: nowrap" href="#!">İhaleler</a>
+            </p>
               <p>
-                <a class="text-reset" style="white-space: nowrap" href="#!">İhracat</a>
+                <a class="text-reset" style="white-space: nowrap" href="#!">Temsilcilikler</a>
               </p>
             </div>
           </div>
