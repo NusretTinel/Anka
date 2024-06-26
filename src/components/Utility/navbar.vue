@@ -22,16 +22,16 @@
       but hey, it's pure CSS magic.
       -->
       <ul id="menu">
-        <a href="http://ankatedarik.com.tr/">
+        <a @click="clickRouteMethod( '/')">
           <li>Anasayfa</li>
         </a>
-        <a href="http://ankatedarik.com.tr/hakkimizda">
+        <a @click="clickRouteMethod( '/hakkimizda')">
           <li>Hakkımızda</li>
         </a>
-        <a href="http://ankatedarik.com.tr/contact">
+        <a @click="clickRouteMethod( '/contact')">
           <li>İletişim</li>
         </a>
-        <a href="http://ankatedarik.com.tr/hizmetlerimiz">
+        <a @click="clickRouteMethod( '/hizmetlerimiz')">
           <li>Hizmetlerimiz</li>
         </a>
 

@@ -2,7 +2,7 @@
   <Navbar></Navbar>
 
   <div class="kap">
-    <img alt="bilboard" src="@/assets/images/imgAnka/ankaMain.png"
+    <img alt="bilboard" src="@/assets/images/imgAnka/Mock_Up_1.png"
          style="width:100% ;height:100% ;"/>
     <div class="row ortalayici">
 
@@ -531,7 +531,20 @@ margin-top:10px;
   height: 100vh;
 }
 @media (max-width: 1191px) {
+  .textRight {
+    width: 50px;
 
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dikeyleyici {
+    flex-direction: column;
+    display: flex;
+    width: 50px;
+    height: 180px;
+    margin-right:0px
+  }
 }
 
 .mpbox {
@@ -738,6 +751,7 @@ margin-top:10px;
 
 
 
+
   font-weight: 500;
   font-size: 25px;
 
@@ -865,5 +879,14 @@ font-family: Calibri;
   display: flex;
   width: 270px;
   height: 180px;
+  margin-right:100px
+}
+
+.textRight {
+  width: 800px;
+  height: 400px;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
 }
 </style>
