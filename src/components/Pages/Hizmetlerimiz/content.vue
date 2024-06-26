@@ -11,9 +11,11 @@
             İthalat
           </div>
           <div class="service-description">
-            Global tedarik zincirlerinden ürün temini, gümrük işlemleri ve lojistik hizmetleri konularında uzman olan
-            ekibimiz, ihtiyaçlarınıza uygun çözümler sunarak maliyetlerinizi düşürür ve operasyonel verimliliğinizi
-            artırır. Müşterilerimize sunduğumuz yenilikçi ithalat stratejileri ile rekabet gücünüzü artırıyoruz.
+            Firmamız, Avrupa ve Türkiye genelinde müşterilerinin ihtiyaç duyduğu çeşitli sektörlerdeki ürünleri,
+            uluslararası ticarette güvenilir ve kaliteli kaynaklardan ithal ederek tedarik süreçlerini yönetir. Uzman
+            ekibimiz, talepleri analiz eder ve müşteri ihtiyaçlarına en uygun ürünleri bulmak için geniş bir küresel ağ
+            kullanır. Her adımda kalite kontrolü ve lojistik yönetimi ile güvenilirlik sağlayarak, müşterilerimize
+            rekabet avantajı kazandırmayı hedefleriz.
           </div>
         </div>
         <div class="service-image">
@@ -26,10 +28,9 @@
             İhracat
           </div>
           <div class="service-description">
-            Dünya pazarlarında yer almak isteyen firmalar için kapsamlı ihracat hizmetleri sunmaktayız. Hedef pazarlarda
-            doğru müşteri ve iş ortaklarını bulma, ürünlerinizi uluslararası standartlara uygun hale getirme ve tüm
-            lojistik süreçlerinizi yönetme konularında profesyonel destek sağlıyoruz. Amacımız, ihracatınızı artırarak
-            firmanızın global büyümesini desteklemek ve yeni pazar fırsatlarını değerlendirmenizi sağlamaktır.
+            Küresel bir firma olarak, yurtdışında bulunan firmalara Türkiye ve Avrupa pazarlarına yönelik ürün ihracatı
+            yapmaktayız. Güçlü global ağımız ve sektörel bilgimizle desteklenen hizmetlerimizle, müşterilerimizin
+            ihtiyaç duydukları ürünleri uluslararası pazarlardan temin ederek tedarik süreçlerini yönetiyoruz.
           </div>
         </div>
         <div class="service-image">
@@ -42,7 +43,8 @@
             Temsilcilikler
           </div>
           <div class="service-description">
-            Başka firmaların farklı ülke pazarlarında etkin bir şekilde alım satım yapmalarına yardımcı olmak amacıyla
+            Başka firmaların Türkiye ve Almanya pazarlarında etkin bir şekilde alım satım yapmalarına yardımcı olmak
+            amacıyla
             temsilcilik hizmetleri sunmaktayız. Yerel pazar bilgisi, stratejik işbirlikleri ve geniş ağımız sayesinde,
             müşterilerimizin yeni pazarlara hızlı ve etkili bir şekilde girmelerini sağlıyoruz. Temsilcilik
             hizmetlerimiz, firmanızın global büyüme hedeflerine ulaşması için gerekli olan tüm destek ve kaynakları
