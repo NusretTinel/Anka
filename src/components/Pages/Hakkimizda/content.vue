@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row banner ">
-      <img src="@/assets/images/Tema/space.jpg" style="height: 30vh">
+      <img src="@/assets/images/Tema/space.jpg" style="height: 300px">
       <div class="imageonw">
         Biz Kimiz ?
       </div>
@@ -108,8 +108,8 @@ export default defineComponent({
 
 .banner {
 
-  height: 30vh;
-  width: 100vw;
+
+  width: 100%;
   background-color: transparent;
 
 
