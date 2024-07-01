@@ -2,20 +2,20 @@
   <Navbar></Navbar>
 
   <div class="kap">
-    <img alt="bilboard" src="@/assets/images/imgAnka/Mock_Up_1.png"
+    <img  alt="bilboard" src="@/assets/images/imgAnka/Mock_Up_1.png"
          style="width:100% ;height:100% ;"/>
     <div class="row ortalayici">
 
 
-<div class="dikeyleyici">
-          <img alt="bilboard" src="@/assets/images/imgAnka/horse.jpg"
-               style="width:100% ; "/>
+      <div class="dikeyleyici">
+        <img alt="bilboard" src="@/assets/images/imgAnka/horse.jpg"
+             style="width:100% ; "/>
 
         <div class=" pictureBottom">
           Neden Anka
         </div>
 
-</div>
+      </div>
 
       <div class="textRight ">
 
@@ -25,7 +25,7 @@
         </div>
 
         <div class="textContent">
-            <span>  20 yıla yaklaşan satın alma deneyimimizle hem müşterilerimizin hem de tedarikçilerimizin maliyet, zaman ve iş gücünden tasarruf etmesini sağlayan, ithalat ve ihracat alanında uzman kadrosu Türkiye ve Dünya'da sınırsız ürün potansiyeline sahip olması nedeniyle tercih edilen bir firmadır </span>
+          <span>  20 yıla yaklaşan satın alma deneyimimizle hem müşterilerimizin hem de tedarikçilerimizin maliyet, zaman ve iş gücünden tasarruf etmesini sağlayan, ithalat ve ihracat alanında uzman kadrosu Türkiye ve Dünya'da sınırsız ürün potansiyeline sahip olması nedeniyle tercih edilen bir firmadır </span>
 
         </div>
       </div>
@@ -46,7 +46,7 @@
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-               Orman Ekipmanları
+                Orman Ekipmanları
               </div>
 
 
@@ -57,7 +57,7 @@
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-              Ölçü Aletleri
+                Ölçü Aletleri
               </div>
 
 
@@ -68,7 +68,7 @@
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-               Madencilik
+                Madencilik
               </div>
 
 
@@ -79,7 +79,8 @@
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-Laboratuvar Cihazları              </div>
+                Laboratuvar Cihazları
+              </div>
 
 
             </div>
@@ -98,10 +99,7 @@ Laboratuvar Cihazları              </div>
           </div>
         </SplideSlide>
         <SplideSlide>
-          <div class="row ortalayici" style="margin-top:50px" >
-
-
-
+          <div class="row ortalayici" style="margin-top:50px">
 
 
             <div class="boxlightC">
@@ -110,7 +108,7 @@ Laboratuvar Cihazları              </div>
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-               Hırdavat Malzemeleri
+                Hırdavat Malzemeleri
               </div>
 
 
@@ -132,7 +130,7 @@ Laboratuvar Cihazları              </div>
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-               Tarım Makine ve Teknolojileri
+                Tarım Makine ve Teknolojileri
               </div>
 
 
@@ -144,7 +142,7 @@ Laboratuvar Cihazları              </div>
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-               Endüstriyel Malzemeler
+                Endüstriyel Malzemeler
               </div>
 
 
@@ -167,16 +165,13 @@ Laboratuvar Cihazları              </div>
           <div class="row ortalayici" style="margin-top:50px">
 
 
-
-
-
             <div class="boxlightC">
               <div class=" resimkutuC">
                 <img alt="bilboard" src="@/assets/images/imgCategory/yapis.jpg  "
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-               Yapı ve İnşaat Malzemeleri
+                Yapı ve İnşaat Malzemeleri
               </div>
 
 
@@ -187,7 +182,7 @@ Laboratuvar Cihazları              </div>
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-          Aydınlatma ve Elektrik Ürünleri
+                Aydınlatma ve Elektrik Ürünleri
               </div>
 
 
@@ -198,7 +193,7 @@ Laboratuvar Cihazları              </div>
                      style="border-radius: 80px;width:100% ;height:100% ;"/>
               </div>
               <div class=" yazıkutuc ">
-              Ambalaj
+                Ambalaj
               </div>
 
 
@@ -210,18 +205,15 @@ Laboratuvar Cihazları              </div>
       </Splide>
 
 
-
-
-
     </div>
     <!--    optimize diğer ekranlar için.-->
     <div class="row ortalayici" style="margin-top:80px">
       <div class="boxlight">
         <div class=" yazıkutu">
-        Düşük Maliyet
+          Düşük Maliyet
         </div>
         <div class=" resimkutu">
-          <img  alt="bilboard" src="@/assets/images/illustrate/price-tag_2221225.png"
+          <img alt="bilboard" src="@/assets/images/illustrate/price-tag_2221225.png"
                style="width:100% ;height:100% ;"/>
         </div>
       </div>
@@ -237,7 +229,7 @@ Laboratuvar Cihazları              </div>
       </div>
       <div class="boxlight">
         <div class=" yazıkutu ">
-         Tecrübeli Kadro
+          Tecrübeli Kadro
         </div>
         <div class=" resimkutu">
           <img alt="bilboard" src="@/assets/images/illustrate/experience_2303952.png"
@@ -246,7 +238,7 @@ Laboratuvar Cihazları              </div>
       </div>
       <div class="boxlight">
         <div class=" yazıkutu ">
-         Sınırsız Ürün Çeşidi
+          Sınırsız Ürün Çeşidi
         </div>
         <div class=" resimkutu">
           <img alt="bilboard" src="@/assets/images/illustrate/design_1117607.png"
@@ -255,7 +247,7 @@ Laboratuvar Cihazları              </div>
       </div>
       <div class="boxlight">
         <div class=" yazıkutu ">
-       Dünya Çapında Hizmet
+          Dünya Çapında Hizmet
         </div>
         <div class=" resimkutu">
           <img alt="bilboard" src="@/assets/images/illustrate/worldwide_4418907.png"
@@ -264,7 +256,7 @@ Laboratuvar Cihazları              </div>
       </div>
 
     </div>
-<!--    optimize diğer ekranlar için.-->
+    <!--    optimize diğer ekranlar için.-->
     <div class="row" style="height: 100px">
     </div>
     <div class="row">
@@ -274,7 +266,7 @@ Laboratuvar Cihazları              </div>
         <span class="spanSliderTopline"></span>
       </div>
     </div>
-<!--     optimize diğer ekranlar için.-->
+    <!--     optimize diğer ekranlar için.-->
     <div class="row" style="margin-top:40px">
 
       <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
@@ -364,7 +356,6 @@ Laboratuvar Cihazları              </div>
   </div>
 
 
-
 </template>
 
 <script>
@@ -417,27 +408,28 @@ export default defineComponent({
   color: #03045e;
   font-size: 30px;
   font-weight: 1000;
-  font-family:Calibri
+  font-family: Calibri
 
 }
 
 .resimkutu {
   margin-top: 20px;
   padding-top: 10px;
-width:130px;
+  width: 130px;
   height: 120px;
   margin-right: 20px;
-  align-items:center;
+  align-items: center;
   display: flex;
   justify-content: center;
 
 
 }
+
 .boxlight {
-margin-top:10px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   margin-right: 10px;
   background-color: #f3f7f8;
   height: 340px;
@@ -445,6 +437,7 @@ margin-top:10px;
   position: relative;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 .boxlight::before,
 .boxlight::after {
   content: '';
@@ -523,6 +516,7 @@ margin-top:10px;
 }
 
 .kap {
+
 //background: linear-gradient(to top, #dcdcdc, #0d6efd); background-color: white;
 }
 
@@ -530,22 +524,7 @@ margin-top:10px;
   width: 100vw;
   height: 100vh;
 }
-@media (max-width: 1191px) {
-  .textRight {
-    width: 50px;
 
-    margin-top: 7px;
-    display: flex;
-    flex-direction: column;
-  }
-  .dikeyleyici {
-    flex-direction: column;
-    display: flex;
-    width: 50px;
-    height: 180px;
-    margin-right:0px
-  }
-}
 
 .mpbox {
   width: 200px;
@@ -649,7 +628,6 @@ margin-top:10px;
 }
 
 
-
 .card-inner {
   width: 100%;
   height: 100%;
@@ -668,6 +646,59 @@ margin-top:10px;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+}
+
+@media (max-width: 1191px) {
+  .dikeyleyici {
+    flex-direction: column;
+    display: flex;
+    width: 270px;
+    height: 180px;
+    margin-right: 0px
+  }
+
+
+  .textContent {
+    font-family: Calibri;
+    justify-content: flex-start; /* İçeriği soldan hizalar */
+    align-items: flex-start; /* İçeriği yukarıdan hizalar */
+    text-align: justify; /* Metni iki yana yaslar */
+    text-align-last: left; /* Son satırı sola hizalar */
+    width: 100%;
+    height: 300px;
+    line-height: 35px;
+    padding: 10px; /* İçerik için biraz boşluk ekler */
+    box-sizing: border-box; /* Padding dahil genişliği düzenler */
+    color: #090849;
+    font-weight: 400;
+    font-size: 22px
+  }
+}
+
+@media (min-width: 1192px) {
+  .textContent {
+    font-family: Calibri;
+    justify-content: flex-start; /* İçeriği soldan hizalar */
+    align-items: flex-start; /* İçeriği yukarıdan hizalar */
+    text-align: justify; /* Metni iki yana yaslar */
+    text-align-last: left; /* Son satırı sola hizalar */
+    width: 100%;
+    height: 300px;
+    line-height: 35px;
+    padding: 10px; /* İçerik için biraz boşluk ekler */
+    box-sizing: border-box; /* Padding dahil genişliği düzenler */
+    color: #090849;
+    font-weight: 400;
+    font-size: 32px
+  }
+
+  .dikeyleyici {
+    flex-direction: column;
+    display: flex;
+    width: 270px;
+    height: 180px;
+    margin-right: 100px
+  }
 }
 
 .card-front {
@@ -722,21 +753,6 @@ margin-top:10px;
   margin-bottom: 10px; /* Başlık ve içerik arasına boşluk ekler */
 }
 
-.textContent {
-  font-family: Calibri;
-  justify-content: flex-start; /* İçeriği soldan hizalar */
-  align-items: flex-start; /* İçeriği yukarıdan hizalar */
-  text-align: justify; /* Metni iki yana yaslar */
-  text-align-last: left; /* Son satırı sola hizalar */
-  width: 100%;
-  height: 300px;
-  line-height: 35px;
-  padding: 10px; /* İçerik için biraz boşluk ekler */
-  box-sizing: border-box; /* Padding dahil genişliği düzenler */
-  color: #090849;
-  font-weight: 400;
-  font-size: 32px
-}
 
 .sıralayıcı {
   flex-direction: column;
@@ -750,15 +766,11 @@ margin-top:10px;
   color: #090849;
 
 
-
-
   font-weight: 500;
   font-size: 25px;
 
 
-
-
-  font-family:"Calibri ";
+  font-family: "Calibri ";
 
 
 }
@@ -772,11 +784,11 @@ margin-top:10px;
 }
 
 .squareSlider {
-  margin-top:20px;
+  margin-top: 20px;
   width: 210px;
   background-color: transparent;
-margin-left:80px;
-  margin-right:80px;
+  margin-left: 80px;
+  margin-right: 80px;
   height: 155px;
 
 }
@@ -816,7 +828,7 @@ margin-left:80px;
   color: #0096c7;
   font-weight: bold;
   margin-bottom: 30px;
-  font-family:Calibri;
+  font-family: Calibri;
 }
 
 .spanSliderTopline {
@@ -841,9 +853,9 @@ margin-left:80px;
 
 .boxlightC {
 
- margin-top: -120px;
+  margin-top: -120px;
   height: 360px;
- width: 300px;
+  width: 300px;
 
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
@@ -851,7 +863,7 @@ margin-left:80px;
 .yazıkutuc {
   height: 80px;
   padding-top: 15px;
-font-family: Calibri;
+  font-family: Calibri;
   margin-left: 10px;
   display: flex;
   justify-content: center;
@@ -874,13 +886,6 @@ font-family: Calibri;
   justify-content: center;
 }
 
-.dikeyleyici {
-  flex-direction: column;
-  display: flex;
-  width: 270px;
-  height: 180px;
-  margin-right:100px
-}
 
 .textRight {
   width: 800px;

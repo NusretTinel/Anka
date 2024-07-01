@@ -75,24 +75,42 @@ export default defineComponent({
 </script>
 
 <style>
+
+@media (max-width: 1191px) {
+  .textContentI1 {
+   margin-left:20px;
+    align-items: center;
+    display: flex;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    width: fit-content ;
+    margin-bottom: 150px;
+    text-align: left;
+  }
+}
+@media (min-width: 1192px) {
+  .textContentI1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+    width: fit-content ;
+    margin-bottom: 150px;
+    text-align: left;
+  }
+}
 .contentOrtalayici{
   align-items: center;
   display: flex;
   justify-content: center;
 }
-.textContentI1 {
-  margin-left: 100px;
-  margin-right: 100px;
-  align-items: center;
-  display: flex;
-color: black;
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 50px;
-width: fit-content ;
-margin-bottom: 150px;
-  text-align: left;
-}
+
 .textContentI2 {
   margin-left: 100px;
   margin-right: 100px;

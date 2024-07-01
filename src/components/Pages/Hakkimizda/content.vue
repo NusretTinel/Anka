@@ -17,8 +17,8 @@
           Mistral GMBH kimliği altında, Avrupa pazarına adım atmış bulunuyoruz. Bu yeni dönemde, satın alma süreçlerindeki derin deneyimimizi ve alanında uzman kadromuzu ön plana çıkararak, yeni teknolojilerle harmanladığımız çözümlerimizle Almanya ve Avrupa ülkelerinde de fark yaratmayı hedefliyoruz. Sürdürülebilir başarılar ve karşılıklı güven temelinde ilerleyerek, uluslararası arenada da adımızdan söz ettirecek projelere imza atmayı amaçlıyoruz.Ayrıca, eğitim ve danışmanlık hizmetlerimizle, müşterilerimizin ve iş ortaklarımızın sektördeki gelişmelerden haberdar olmalarını sağlamakta ve onların kapasitelerini artırmalarına katkıda bulunmaktayız.Mistral GMBH olarak, uluslararası ticaret ve iş geliştirme alanlarında, yenilikçi ve sürdürülebilir stratejilerimizle, sektördeki varlığımızı güçlendirmeye ve genişletmeye devam edeceğiz. İş birliklerimizi ve ağımızı genişleterek, global pazarda rekabet avantajı elde etmeyi ve müşterilerimize daha iyi hizmet sunmayı sürdüreceğiz.
         </div>
       </div>
-      <div class="row  " style="margin-top:40px">
-        <img src="@/assets/images/imgAnka/whiteAnkaS.png">
+      <div class="row mobilResim  " style="margin-top:40px">
+        <img src="@/assets/images/imgAnka/whiteAnkaS.png" style="width:100%;height:100%">
 
       </div>
     </div>
@@ -84,15 +84,32 @@ export default defineComponent({
   margin-top: 5vh;
 
 }
-
-.about-us-w {
-  font-size: 25px;
-  line-height: 40px;
-  margin-top: 50px;
-  color: black;
-  text-align: start;
-  font-weight: 400
+@media (max-width: 1191px) {
+  .about-us-w {
+    font-size: 17px;
+    line-height: 40px;
+    margin-top: 50px;
+    color: black;
+    text-align: start;
+    font-weight: 400
+  }
+  .mobilResim{
+    width:100%
+  }
 }
+
+@media (min-width: 1192px) {
+  .about-us-w {
+    font-size: 25px;
+    line-height: 40px;
+    margin-top: 50px;
+    color: black;
+    text-align: start;
+    font-weight: 400
+  }
+
+}
+
 
 .imageonw {
 
