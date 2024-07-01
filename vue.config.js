@@ -7,13 +7,25 @@ const SitemapPlugin = require('sitemap-webpack-plugin').default
 const paths = [
   {
     path: '/',
-    lastmod: '2021-11-22',
+    lastmod: '2023-11-22',
     priority: 1.0,
     changefreq: 'yearly'
   },
   {
-    path: '/about/',
-    lastmod: '2021-11-22',
+    path: '/hakkimizda',
+    lastmod: '2023-11-22',
+    priority: 0.9,
+    changefreq: 'yearly'
+  },
+  {
+    path: '/contact',
+    lastmod: '2023-11-22',
+    priority: 0.9,
+    changefreq: 'yearly'
+  },
+  {
+    path: '//hizmetlerimiz',
+    lastmod: '2023-11-22',
     priority: 0.9,
     changefreq: 'yearly'
   }
@@ -22,7 +34,7 @@ const paths = [
 module.exports = {
   configureWebpack: {
     plugins: [
-      new SitemapPlugin({ base: 'https://example.com', paths })
+      new SitemapPlugin({ base: 'http://ankatedarik.com.tr/', paths })
     ]
   },
   // Other exports here

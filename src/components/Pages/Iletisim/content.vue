@@ -7,29 +7,29 @@
   <div class="row contentOrtalayici" >
 
     <div class="textContentI1">
-      <span> E-posta: info@ankatedarik.com <br>Telefon :  0312 312 31 12 <br> Dahili No : 0312 312 13 13 <br> Adres: Turgut özal mah. </span>
+      <span> E-posta: info@ankatedarik.com <br>Telefon : 0 542 257 28 66 <br> Telefon(whatsapp) : 0 538 415 46 41 <br> Adres: Türlab laboratuvarı batıkent ankara, Yeni Batı, 2401. Sk., 06370 Yenimahalle/Ankara </span>
     </div>
 
-    <div class="textContentI2">
-      <div class="card  " style="margin-bottom: 150px">
-        <span class="title">Bizimle İletişime Geç</span>
-        <form class="form">
-          <div class="group">
-            <input placeholder="‎" required="" type="text">
-            <label for="name">İsim</label>
-          </div>
-          <div class="group">
-            <input id="email" name="email" placeholder="‎" required="" type="email">
-            <label for="email">Email</label>
-          </div>
-          <div class="group">
-            <textarea id="comment" name="comment" placeholder="‎" required="" rows="5"></textarea>
-            <label for="comment">Yorum</label>
-          </div>
-          <button type="submit">Gönder</button>
-        </form>
-      </div>
-    </div>
+<!--    <div class="textContentI2">-->
+<!--      <div class="card  " style="margin-bottom: 150px">-->
+<!--        <span class="title">Bizimle İletişime Geç</span>-->
+<!--        <form class="form">-->
+<!--          <div class="group">-->
+<!--            <input placeholder="‎" required="" type="text">-->
+<!--            <label for="name">İsim</label>-->
+<!--          </div>-->
+<!--          <div class="group">-->
+<!--            <input id="email" name="email" placeholder="‎" required="" type="email">-->
+<!--            <label for="email">Email</label>-->
+<!--          </div>-->
+<!--          <div class="group">-->
+<!--            <textarea id="comment" name="comment" placeholder="‎" required="" rows="5"></textarea>-->
+<!--            <label for="comment">Yorum</label>-->
+<!--          </div>-->
+<!--          <button type="submit">Gönder</button>-->
+<!--        </form>-->
+<!--      </div>-->
+<!--    </div>-->
 
 
   </div>

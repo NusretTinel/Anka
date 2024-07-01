@@ -24,32 +24,32 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div class="col-md-2   mx-auto mb-4">
             <!-- Links -->
-            <div class="col-2" style="white-space: nowrap">
+            <div class="" style="white-space: nowrap ;display-direction:column; justify-content:center;align-items:center  ">
             <h6 class="text-uppercase fw-bold mb-4" style="color: #d3d1d1">
              Hizmetlerimiz
             </h6>
             <p>
-              <a class="text-reset" style="white-space: nowrap" href="#!">Tedarik</a>
+              <a class="linkFooter" style="white-space: nowrap" href="#!">Tedarik</a>
             </p>
             <p>
-              <a class="text-reset" style="white-space: nowrap" href="#!">İthalat</a>
+              <a class="linkFooter" style="white-space: nowrap" href="#!">İthalat</a>
             </p>
             <p>
-              <a class="text-reset" style="white-space: nowrap" href="#!">İhracat</a>
+              <a class="linkFooter" style="white-space: nowrap" href="#!">İhracat</a>
             </p>
             <p>
-              <a class="text-reset" style="white-space: nowrap" href="#!">İhaleler</a>
+              <a class="linkFooter" style="white-space: nowrap" href="#!">İhaleler</a>
             </p>
               <p>
-                <a class="text-reset" style="white-space: nowrap" href="#!">Temsilcilikler</a>
+                <a class="linkFooter" style="white-space: nowrap" href="#!">Temsilcilikler</a>
               </p>
             </div>
           </div>
 
 
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="">
+          <div class=" col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="">
 
             <h6 class="text-uppercase fw-bold mb-4" style="color: #D3D1D1FF">İletişim</h6>
             <p><i class="fas fa-home me-3"></i> Ankara/Batıkent</p>
@@ -92,6 +92,12 @@ export default {
   width: 100%;
   background-color: #18b3cc;
 height: 35vh;
+}
+.linkFooter{
+  color:#d2d2d2;
+}
+.linkFooter:hover{
+  color: #0096c7;
 }
 
 </style>

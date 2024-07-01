@@ -20,7 +20,7 @@ export const sitemapMiddleware = () => {
             ],
         };
 
-        new VueRouterSitemap(router).filterPaths(filterConfig).build('http://example.com').save(staticSitemap);
+        new VueRouterSitemap(router).filterPaths(filterConfig).build('http://ankatedarik.com.tr').save(staticSitemap);
 
         return res.sendFile(staticSitemap);
     };

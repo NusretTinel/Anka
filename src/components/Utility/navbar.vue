@@ -39,7 +39,7 @@
     </div>
   </nav>
   <div class="navv">
-  <div class="row ortalayici " style="background-color: BLACK ; height: 80px; ; width: 100%">
+  <div class="row ortalayici " style="background-color: #0a0f1f  ; height: 80px; ; width: 100%">
     <div class="navItem">
       <svg height="70" viewBox="0 0 288.93 154.35" width="150" xmlns="http://www.w3.org/2000/svg">
         <defs>
@@ -84,11 +84,12 @@
     <div class="navItem">
       <button class="baslık" @click="clickRouteMethod( '/hakkimizda')"> Hakkımızda</button>
     </div>
-    <div class="navItem">
-      <button class="baslık" @click="clickRouteMethod( '/contact')"> İletişim</button>
-    </div>
+
     <div class="navItem">
       <button class="baslık" @click="clickRouteMethod( '/hizmetlerimiz')"> Hizmetlerimiz</button>
+    </div>
+    <div class="navItem">
+      <button class="baslık" @click="clickRouteMethod( '/contact')"> İletişim</button>
     </div>
     <div class="navItem1">
       <a href="mailto:info@ankatedarik.com" target="_blank">
@@ -296,10 +297,12 @@ export default {
   padding: 0; /* Butonun iç boşluğunu kaldırır */
   outline: none; /* Butonun kenarlığını kaldırır */
   font-weight: bold;
-  font-size: 100%;
-  font-family: SandrinaRegular, Sandrina
+  font-size: 70%;
+  font-family:Poppins-Regular,Arial
 }
-
+.baslık:hover{
+  color: #0096c7;
+}
 .light {
 
   margin-left: 20px;

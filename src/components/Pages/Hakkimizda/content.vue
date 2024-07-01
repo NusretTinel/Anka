@@ -3,7 +3,7 @@
     <div class="row banner ">
       <img src="@/assets/images/Tema/space.jpg" style="height: 300px">
       <div class="imageonw">
-        Biz Kimiz ?
+      ANKA
       </div>
     </div>
     <div class="container">
