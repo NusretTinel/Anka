@@ -7,7 +7,7 @@
   <div class="row contentOrtalayici" >
 
     <div class="textContentI1">
-      <span> E-posta: info@ankatedarik.com <br>Telefon : 0 542 257 28 66 <br> Telefon(whatsapp) : 0 538 415 46 41 <br> Adres: Türlab laboratuvarı batıkent ankara, Yeni Batı, 2401. Sk., 06370 Yenimahalle/Ankara </span>
+      <span> E-posta: info@ankatedarik.com <br>Telefon : 0 542 257 28 66 <br> Sabit Telefon : 0 312 256 15 00 <br>  Telefon(whatsapp) : 0 538 415 46 41 <br> Adres:  batıkent ankara, Yeni Batı, 2401. Sk., 06370 Yenimahalle/Ankara </span>
     </div>
 
 <!--    <div class="textContentI2">-->
